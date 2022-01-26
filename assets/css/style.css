@@ -10,4 +10,19 @@
 body {
     font-family: 'Merriweather', serif;
     font-weight: 300;
-}
+    color: #3a3a3a;
+    background-color: #dfeef5;
+     }
+
+    /* heading and logo */
+    h1, h2 {
+        font-family: 'Special Elite', cursive;
+        letter-spacing: 4px;
+        color: #324949;
+    }
+
+    #logo {
+        text-align: center;
+        font-size: 50px;
+        margin: 3%;
+    }
