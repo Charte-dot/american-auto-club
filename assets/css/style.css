@@ -16,9 +16,10 @@ body {
 
     /* heading and logo */
     h1, h2 {
+        text-transform: uppercase;
         font-family: 'Special Elite', cursive;
         letter-spacing: 4px;
-        color: #324949;
+        color: #2b4270;
     }
 
     #logo {
@@ -26,3 +27,40 @@ body {
         font-size: 50px;
         margin: 3%;
     }
+
+    /* Navigation links */
+
+    #menu, logo {
+        line-height: 75px;
+    }
+
+    #menu {
+        font-size: 110%;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+
+    }
+
+    #menu li {
+        list-style-type: none;
+        display: inline-block;
+        margin-inline: 70px;
+    
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: #a86808;
+        font-family: 'Special Elite', cursive;
+        
+    }
+
+    #menu a:hover {
+        border-bottom: 2px solid #2b4270 ;
+
+    }
+
+    .active {
+        border-bottom: 2px solid #2b4270 ;
+    }
+
