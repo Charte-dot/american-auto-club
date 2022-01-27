@@ -70,6 +70,12 @@ body {
         height: 600px;
         width: 100%;
         overflow: hidden;
+        position: relative;
+    }
+
+    #cover-text #cover-text h2 {
+        color: #dfeef5;
+
     }
 
     #hero-image {
@@ -96,4 +102,25 @@ body {
          }
      }
      
+     #cover-text {
+         font-size: 130%;
+         font-family:'Special Elite', cursive; 
+         text-transform: uppercase;
+         letter-spacing: 4px;
+         text-align: left;
+        
+         width: 300px;
+         height: 200px;
+
+         padding-bottom: 40px;
+         padding-right: 10px;
+        
+         background-color: rgba(168, 104, 8, 1 .7);
+
+         bottom: 30px;
+         right: 150px;
+
+         
+
+     }
 
