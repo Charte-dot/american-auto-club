@@ -64,3 +64,36 @@ body {
         border-bottom: 2px solid #2b4270 ;
     }
 
+    /* main image */
+   
+    #hero-outer {
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #hero-image {
+        height: 600px;
+        width: 100%;
+        background: url(../css/Hero-image.jpg) no-repeat center center;
+        background-size: 100%;
+        
+        /* animate zoom on loading */
+        animation-name: hero-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+
+     }
+
+     /* level of zoom for hero image */
+
+     @keyframes hero-zoom {
+         from {
+            transform: scale(1); 
+         }
+         to {
+            transform: scale(1.1); 
+         }
+     }
+     
+
