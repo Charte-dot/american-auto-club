@@ -25,33 +25,42 @@ body {
     #logo {
         text-align: center;
         font-size: 50px;
-        margin: 3%;
+        padding-top: 2%;
     }
 
     /* Navigation links */
 
     #menu, logo {
         line-height: 75px;
+        
     }
 
     #menu {
-        font-size: 110%;
+        font-size: 140%;
         letter-spacing: 4px;
         text-transform: uppercase;
+        position: relative;
+        display: inline-block;
 
-    }
+     }
 
     #menu li {
-        list-style-type: none;
-        display: inline-block;
+       list-style-type: none;
+        display: inline;
+        position: relative;
         margin-inline: 70px;
-    
+        position: relative;
+        text-align: center;
+        
     }
 
     #menu a {
         text-decoration: none;
-        color: #c54544;
+        color: #d32e2ee0;
         font-family: 'Special Elite', cursive;
+        font-size: 90%;
+        
+        
         
     }
 
@@ -83,6 +92,7 @@ body {
         width: 100%;
         background: url(../css/Hero-image.jpg) no-repeat center center;
         background-size: 100%;
+        background-color: #2b4270;
         
         /* animate zoom on loading */
         animation-name: hero-zoom;
@@ -104,7 +114,7 @@ body {
 
      #cover-text {
          font-size: 110%;
-         font-family: 'Special Elite', cursive;
+         font-family: 'Merriweather', serif;
          text-transform: uppercase;
          letter-spacing: 4px;
          
@@ -123,11 +133,45 @@ body {
          position: absolute ;
          text-align: center;
          line-height: 50px;
+         border-radius: 100%;
          
-         
+         }
+
+         /*club ethos */
+
+         #club-ethos {
+             height: 600px;
+
+         }
+
+         #center-about {
+           padding-top: 2%;
+            width: 33%;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 200%;
+            font-family: 'Merriweather', serif;
+
+        }
+
+        .center-about-text {
+           padding-top: 1%;
+            width: 80%;
+            line-height: 40px;
+            text-align:justify;
+            margin: 0 auto;
+            font-size: 150%;
+            color: #2b4270;
+
+        }
+
+           
 
 
-     }
+        
+
+            
+
      
      
 
