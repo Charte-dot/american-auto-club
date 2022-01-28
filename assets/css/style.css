@@ -36,7 +36,7 @@ body {
     }
 
     #menu {
-        font-size: 140%;
+        font-size: 120%;
         letter-spacing: 4px;
         text-transform: uppercase;
         position: relative;
@@ -151,6 +151,7 @@ body {
             text-align: center;
             font-size: 200%;
             font-family: 'Merriweather', serif;
+           
 
         }
 
