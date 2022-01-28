@@ -44,7 +44,7 @@ body {
 
      }
 
-    #menu li {
+    #menu > li {
        list-style-type: none;
         display: inline;
         position: relative;
@@ -54,7 +54,7 @@ body {
         
     }
 
-    #menu a {
+    #menu  a {
         text-decoration: none;
         color: #d32e2ee0;
         font-family: 'Special Elite', cursive;
@@ -194,7 +194,27 @@ body {
           
             
         }
+
+        /* footer */
+        footer {
+            height: 150px;
+        }
             
+        .social-networks {
+            text-align: center;
+
+        }
+
+        .social-networks > li {
+              display: inline;
+        }
+
+        .social-networks i {
+            font-size: 160%;
+            margin: 1%;
+            padding: 5%;
+            color: #2b4270;
+        }
 
         
 
