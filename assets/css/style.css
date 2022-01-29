@@ -161,8 +161,9 @@ body {
             line-height: 40px;
             text-align:justify;
             margin: 0 auto;
-            font-size: 150%;
+            font-size: 120%;
             color: #2b4270;
+            font-family: 'Merriweather', serif;
 
         }
 
@@ -197,7 +198,7 @@ body {
 
         /* footer */
         footer {
-            height: 150px;
+            height: 100px;
         }
             
         .social-networks {
@@ -217,10 +218,39 @@ body {
         }
 
         
+        /* about us  */
+        #about-us {
+            height: 600px;
 
-           
+        }
 
+        #about-us-heading {
+          padding-top: 2%;
+           width: 33%;
+           margin: 0 auto;
+           text-align: center;
+           font-size: 200%;
+           font-family: 'Merriweather', serif;
+          
 
+       }
+
+       .about-us-text {
+          padding-top: 1%;
+           width: 80%;
+           line-height: 40px;
+           text-align: justify;
+           margin: 0 auto;
+           font-size: 120%;
+           color: #2b4270;
+           font-family: 'Merriweather', serif;
+       }    
+
+      #charity-link {
+        width: 4%;
+        height: 4%;
+        text-align: center;
+      }
         
 
             
