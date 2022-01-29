@@ -263,7 +263,7 @@ body {
       }
 
       .important {
-        color: #2b4270;
+        color:  #2b4270;
         font-family: 'Merriweather', serif;
         margin-top: 2%;
         margin-bottom: 2%;
@@ -275,31 +275,28 @@ body {
 
      .calendar-table {
          text-align: left;
-         padding-top: 2%;
          font-family: 'Merriweather', serif;
         
      }
          
      table, th, td {
-        
-        border: 2px solid #e0dddde0;
-        width: 100%;
-        height: 100%;
-        table-layout: fixed;
-        background-color:  rgba(43, 66, 112, 0.5);
-        
+       border: 3px solid #dfeef5;
+       width: 100%;
+       height: 100%;
+       table-layout: fixed;
+       background-color: rgba(43, 66, 112, 0.479);
     }
 
-    td {
-        padding-top: 1%;
-    }
-       
-       .rows {
+    .rows {
         font-family: 'Merriweather', serif;
         text-align: center;
         font-size: 150%;
         color: #dfeef5;
         width: 20%;
+    }
+
+    td {
+        padding-top: 1%;
     }
 
     td {
