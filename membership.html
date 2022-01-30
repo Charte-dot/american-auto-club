@@ -18,43 +18,53 @@
           </h1>
             <nav>
                 <ul id="menu">
-                     <li>
-                         <a href="index.html"> Home</a>
-                    </li>
-                     <li>
-                         <a href="about.html" >About</a>
-                    </li>
-                     <li>
-                         <a href="calendar.html">Calender</a>
-                    </li>
-                     <li>
-                         <a href="gallery.html" class="active">Gallery</a>
-                    </li>
-                     <li>
-                         <a href="membership.html">Membership</a>
-                    </li>
-                     <li>
-                         <a href="#">Contact</a>
-                    </li>
-
+                    <li>
+                        <a href="index.html"> Home</a>
+                   </li>
+                    <li>
+                        <a href="about.html">About</a>
+                   </li>
+                    <li>
+                        <a href="calendar.html">Calender</a>
+                   </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                   </li>
+                    <li>
+                        <a href="membership.html" class="active">Membership</a>
+                   </li>
+                    <li>
+                        <a href="#">Contact</a>
+                   </li>
                 </ul>
             </nav>
         </a>
         
     </header>
+    <section class="form-section">
+        <form action="https://formdump.americanautos.com" method="post" class="signup-form">
+            <h2>Membership Sign up <i class="fas fa-edit"></i></h2>
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" required class="text">
 
-    <section id="photos">
-        <img src="assets/images/car-1-.jpg.jpg" alt="car show in warehouse">
-        <img src="assets/images/car-2-jp.jpg" alt="members cars">
-        <img src="assets/images/car-3-jpg.jpg" alt="cars show inside a warehouse">
-        <img src="assets/images/car-4-jpg.jpg" alt="red car outside a building">
-        <img src="assets/images/car-5-jpg.jpg" alt="three cars lined up">
-        <img src="assets/images/car-6-jpg.jpg" alt="red and black car ">
-        <img src="assets/images/car-7-jpg.jpg" alt="blue car in grass">
-        <img src="assets/images/car-8-jpg.jpg" alt="dodge charger in a wet car park">
-        <img src="assets/images/car-9-jpg.jpg" alt="blue ford mustang">
-        <img src="assets/images/car-10-jpg.jpg" alt="red car under bridge">
-        
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" required class="text">
+
+            <label for="email">Email Aaddress</label>
+            <input id="email" type="email" required class="text">
+
+            <label for="car_owner">Car owner</label>
+            <input id="car_owner" type="radio" name="member_level" value="car_owner" required>
+
+            <label for="car_enthusiast">Car Enthusiast</label>
+            <input id="car_enthusiast" type="radio" name="member_level" value="car_enthusiast" required>
+
+            <input type="submit" value="Submit" class="sign-up-button">
+
+
+
+        </form>
+             
     </section>
   
     <footer>
