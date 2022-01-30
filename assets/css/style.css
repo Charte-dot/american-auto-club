@@ -16,7 +16,7 @@ body {
 
     /* heading and logo */
     
-    h1, h2 {
+    h1 {
         text-transform: uppercase;
         font-family: 'Special Elite', cursive;
         letter-spacing: 4px;
@@ -90,7 +90,7 @@ body {
         width: 100%;
         background: url(../images/Hero-image.jpg) no-repeat center center;
         background-size: 100%;
-        background-color: #2b4270;
+        
         
         /* animate zoom on loading */
         animation-name: hero-zoom;
@@ -453,13 +453,31 @@ body {
         }
           
         /* media queries */
-        
-       
 
+        @media screen and (max-width: 1200px) {
+            #club-ethos {
+                width: auto;
+                height: auto;
+                margin: 0 auto;
+            }
 
+            #logo {
+                width: auto;
+                height: auto;
+                margin: 0 auto;
+            }
 
-     
+            #menu {
+                width: auto;
+                height: auto;
+                margin: 0 auto;
+            }
          
+            #hero-outer {
+                width: auto;
+                height: auto;
+                margin: 0 auto;
+            }
+           
 
-     
-
+        }
