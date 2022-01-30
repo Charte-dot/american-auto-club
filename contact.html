@@ -7,6 +7,7 @@
     <meta name="description" content="American car club in Dublin, Ireland">
     <meta name="keywords" content="american cars, car club, ireland dublin">
     <link rel="stylesheet" href="assets/css/style.css">
+   
 
     <title>The Authentic American Auto Club</title>
 </head>
@@ -31,41 +32,53 @@
                         <a href="gallery.html">Gallery</a>
                    </li>
                     <li>
-                        <a href="membership.html" class="active">Membership</a>
+                        <a href="membership.html">Membership</a>
                    </li>
                     <li>
-                         <a href="contact.html">Contact</a>
-                    </li>
+                        <a href="contact.html" class="active">Contact</a>
+                   </li>
                 </ul>
             </nav>
         </a>
         
     </header>
-    <section class="form-section">
-        <form action="https://formdump.americanautos.com" method="post" class="signup-form">
-            <h2>Membership Sign up <i class="fas fa-edit"></i></h2>
-            <label for="fname">First Name</label>
-            <input id="fname" type="text" required class="text">
-
-            <label for="lname">Last Name</label>
-            <input id="lname" type="text" required class="text">
-
-            <label for="email">Email Aaddress</label>
-            <input id="email" type="email" required class="text">
-
-            <label for="car_owner">Car owner</label>
-            <input id="car_owner" type="radio" name="member_level" value="car_owner" required>
-
-            <label for="car_enthusiast">Car Enthusiast</label>
-            <input id="car_enthusiast" type="radio" name="member_level" value="car_enthusiast" required>
-
-            <input type="submit" value="Submit" class="sign-up-button">
-
-
-
-        </form>
-             
+    <section id=hero-outer>
+          <div id="hero-image"></div>
+         
+        
     </section>
+    <section id="contact">
+    <h1 id="contact-heading">Contact Us <i class="fas fa-envelope-square"></i></h1>        
+        
+    <div>
+        <div class="address">
+            <h2 class="location">Location <i class="fas fa-map-marker-alt"></i></h2>
+            <p>The Authentic American Auto Club</p>
+            <p>Unit 52</p>
+            <p>Baldonell Industrial Estate</p>
+            <p>Dublin</p>
+            <br>
+            <p>GPS: 53.30757209508063, -6.437370093672449</p>
+           
+        </div>
+        <div class="phone">
+            <h2 class="call">Contact Information <i class="fas fa-phone"></i></h2>
+            <p>Phone us: 01-7098765</p>
+            <br>
+            <p>Email: american autos@cars.com</p>
+            
+           
+        </div>
+
+    </div>
+   
+
+    </section>
+
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3445.258888247676!2d-6.436363254175977!3d53.30809876332677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1643559620789!5m2!1sen!2sie" 
+        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
   
     <footer>
        <ul class="social-networks">
@@ -86,7 +99,7 @@
             aria-label="Visit Our Youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
         </li>
        </ul>
-    </footer>
+     </footer>
 
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 </body>
