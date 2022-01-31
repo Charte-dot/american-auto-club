@@ -16,7 +16,7 @@ body {
 
     /* heading and logo */
     
-    h1 {
+    h1, h2 {
         text-transform: uppercase;
         font-family: 'Special Elite', cursive;
         letter-spacing: 4px;
