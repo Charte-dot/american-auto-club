@@ -11,7 +11,7 @@ body {
     font-family: 'Merriweather', serif;
     font-weight: 300;
     color: #3a3a3a;
-    background-color: #dfeef5;
+    background-color: #edf2f5;
     }
 
     /* heading and logo */
@@ -24,9 +24,11 @@ body {
     }
 
     #logo {
+        width: 100%;
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
         padding-top: 2%;
+       
     }
 
     /* Navigation links */
@@ -45,6 +47,7 @@ body {
         list-style-type: none;
         display: inline-block;
         left: 25%;
+    
         
         
         letter-spacing: 4px;
@@ -54,7 +57,7 @@ body {
         
     #menu  a {
         text-decoration: none;
-        color: #d32e2ee0;
+        color: #b90f0fe0;
         font-family: 'Special Elite', cursive;
         font-size: 20px;
         
@@ -74,8 +77,8 @@ body {
     /* main image */
    
     #hero-outer {
-        height: 600px;
         width: 100%;
+        height: 600px;
         overflow: hidden;
         position: relative;
     }
@@ -85,8 +88,8 @@ body {
    }
 
     #hero-image {
-        height: 600px;
         width: 100%;
+        height: 600px;
         background: url(../images/Hero-image.jpg) no-repeat center center;
         background-size: 100%;
         
@@ -107,46 +110,16 @@ body {
          to {
             transform: scale(1.1); 
         }
-     }
-
-     #cover-text, #cover-text h2 {
-        color: #dfeef5;
-
-     }
-
-     #cover-text  {
-         font-size: 20px;
-         font-family: 'Merriweather', serif;
-         text-transform: uppercase;
-         letter-spacing: 4px;
-         
-         width: 300px;
-         height: 200px;
-
-         padding-top: 40px;
-         padding-left: 10px;
-
-         background-color: rgba(211, 46, 46, 0.7);
-         
-
-         bottom: 30px;
-         right: 150px;
-
-         position: absolute ;
-         text-align: center;
-         line-height: 50px;
-         border-radius: 100%;
-        
     }
 
-         /*club ethos */
+      /*club ethos */
 
          #club-ethos {
              height: 600px;
 
         }
 
-         #center-about {
+         #welcome {
            padding-top: 2%;
             width: 33%;
             margin: 0 auto;
@@ -157,7 +130,7 @@ body {
 
     }
 
-        .center-about-text {
+        .welcome-text {
            padding-top: 1%;
             width: 80%;
             line-height: 40px;
@@ -243,7 +216,7 @@ body {
            line-height: 40px;
            text-align: justify;
            margin: 0 auto;
-           font-size: 120%;
+           font-size: 20px;
            color: #2b4270;
            font-family: 'Merriweather', serif;
     }    
@@ -390,7 +363,7 @@ body {
             width: 33%;
             margin: 0 auto;
             text-align: center;
-            font-size: 200%;
+            font-size: 30px;
             font-family: 'Merriweather', serif;
          }
 
@@ -457,50 +430,56 @@ body {
         }
           
         /* media queries */
-
-        @media screen and (max-width: 1200px) {
-            
+         
+        @media screen and (max-width: 983.20px) {
             #logo {
-                width: 65%;
-                height: auto;
-                margin: 0 auto;
-                font-size: 40px;
-            }
-                  
-            #menu {
-                font-size: 15px;
-            }
-                
-            
-            #club-ethos {
-               width: 65%;
-               height: 1200;
-               margin: 0 auto;
-               
-                
+              font-size: 30px;
             }
 
-           hr {
-                 display: none;
+            #menu > a {
+                 font-family: 10px;
+            } 
+            
+            #menu > li {
+              left: 15%;
+            }
+
+            #hero-image {
+                width: 100%;
+                height: 600px;
              }
-            
-          } 
-             
-          @media screen and (max-width: 950px) {
 
-                #menu {
-                    clear: left;
-                    float: left;
-                    margin-left: 30px;
-                    margin-bottom: 20px;
-                    line-height: 25px;
-                }
-            
-               
-            
-                   #club-ethos {
-                    width: 90%;
-                    height: 1200px;
-                    margin: 0 auto;
-                }
+            #welcome {
+                font-size: 25px;
+                padding-top: 1%;
+              }
+
+            .welcome-text{
+                font-size: 15px;
+
             }
+
+            #about-us-heading {
+                padding-top: 1%;
+                   font-size: 25px;
+            }
+
+            .about-us-text {
+                font-size: 15px;
+                line-height: 30px;
+            }
+
+            #contact-heading {
+                font-size: 20px;
+                text-align: center;
+                left: 50%;
+            }
+
+
+
+            }
+              
+        
+        
+         
+          
