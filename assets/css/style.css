@@ -250,9 +250,9 @@ body {
         text-align: center;
     }
         
-    /* calender */
+    /* events */
 
-      #calendar-heading {
+      #events-heading {
         color: #2b4270;
         font-family: 'Merriweather', serif;
         margin-top: 2%;
@@ -271,7 +271,7 @@ body {
         
      
 
-     .calendar-table {
+     .events-table {
          text-align: left;
          font-family: 'Merriweather', serif;
     }
