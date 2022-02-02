@@ -26,46 +26,37 @@ body {
     #logo {
         width: 100%;
         text-align: center;
-        font-size: 40px;
+        font-size: 60px;
         padding-top: 2%;
        
     }
 
     /* Navigation links */
 
-    #menu, logo {
-        line-height: 75px;
-        
-    }
-
-  
-
-     #menu > li {
-        float: none;
-        position: relative;
-        text-align: center;
-        list-style-type: none;
-        display: inline-block;
-        left: 25%;
-    
-        
-        
-        letter-spacing: 4px;
-        text-transform: uppercase;
-        padding: 1%;
-     }
-        
     #menu  a {
         text-decoration: none;
         color: #b90f0fe0;
         font-family: 'Special Elite', cursive;
         font-size: 20px;
-        
-    
-        
-    }
 
-    #menu a:hover {
+    } 
+     #menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+   
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 30px;
+}
+    
+#menu a:hover {
         border-bottom: 2px solid #2b4270 ;
 
     }
@@ -431,17 +422,17 @@ body {
           
         /* media queries */
          
-        @media screen and (max-width: 983.20px) {
-            #logo {
-              font-size: 30px;
-            }
-
+        @media screen and (max-width: 868px) {
+          #logo {
+              width: 100%;
+              font-size: 40px;
+          }
             #menu > a {
                  font-family: 10px;
             } 
             
             #menu > li {
-              left: 15%;
+              left: 20%;
             }
 
             #hero-image {
