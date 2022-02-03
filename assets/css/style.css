@@ -68,6 +68,10 @@ body {
             color: #2b4270;
           }
 
+          .active {
+            color: #2b4270;
+          }
+
     /* main image */
    
     #hero-outer {
@@ -85,7 +89,7 @@ body {
         width: 100%;
         height: 600px;
         background: url(../images/Hero-image.jpg) no-repeat center center;
-        background-size: 100%;
+        background-size: cover;
         
         
         /* animate zoom on loading */
@@ -227,6 +231,7 @@ body {
            text-align: center;
            font-size: 30px;
            font-family: 'Merriweather', serif;
+           color: #2b4270;
           
 
     }
@@ -434,6 +439,7 @@ body {
             padding: 25%;
             position: relative;
             height: 0;
+           
             
          
         }
@@ -447,6 +453,7 @@ body {
             width: 90%;
             position: absolute;
             background-color: #2b4270;
+            background-size: cover;
             
         }
           
@@ -454,21 +461,16 @@ body {
          @media screen and (max-width: 901px) {
           .logo {
               width: 100%;
-              font-size: 40px;
+              font-size: 35px;
           }
           
-          .container {
-            text-align: center;
-          }
-
-          .container-nav{
-              font-size: 1.2rem;
-          }
-            
-          #hero-image {
-                width: 100%;
-                height: 600px;
-             }
+         nav a {
+            font-size: 20px;
+            padding: 15px 10px;
+            width: 80px;
+         }
+          
+           
 
            #cover-text {
                margin: 0 auto;
@@ -491,7 +493,7 @@ body {
 
             .about-us-text {
                 font-size: 15px;
-                line-height: 30px;
+                line-height: 25px;
             }
 
             #contact-heading {
@@ -499,12 +501,101 @@ body {
                 text-align: center;
                 left: 50%;
             }
-
-
-
+            .address {
+                left: 20%;
             }
-              
+
+            .phone {
+                left: 20%;
+            }
+
+        }
+        @media screen and (max-width: 818px) {
+            h2, h3 {
+                font-size: 15px;
+                text-align: left;
+            }
+        }
+
+ 
+            @media screen and (max-width: 700px) {
+               .rows {
+                   font-size: 100%;
+               }
+
+               tr > td {
+                font-size: 100%;
+               }
+
+               #events-heading {
+                font-size: 150%;
+             }
+
+               .signup-form {
+                   left: 10%;
+               }
+            }
+
+                     
+              @media screen and (max-width: 663px) {
+                .about-us-text {
+                    line-height: 25px;
+                }
+           
+                #events-heading {
+                    font-size: 150%;
+                 }
+
+                }
+
+                @media screen and (max-width: 636px) {
+                    .about-us-text {
+                        line-height: 20px;
+                    }
+
+                    nav a {
+                        padding: 10px 5px;
+                        
+                     }
+
+                     #contact-heading {
+                        font-size: 20px;
+                        text-align: center;
+                        left: 10%;
+                    }
+                    .address {
+                        left: 10%;
+                    }
         
-        
-         
-          
+                    .phone {
+                        left: 10%;
+                    }
+                }
+
+                @media screen and (max-width: 576px) {
+                    nav a {
+                        padding: 5px 2px;
+                    }
+
+                     #logo {
+                        width: 100%;
+                        font-size: 15px;
+                        letter-spacing: 2px;
+                     }   
+                }
+                
+                @media screen and (max-width: 534.40px) {
+                    nav a {
+                        padding: 2px 2px;
+                    }
+
+                     #logo {
+                       
+                        font-size: 5px;
+                        letter-spacing: 2px;
+                        padding: 0;
+                        margin: 0 auto;
+                     }   
+                }
+                
+                   
