@@ -40,43 +40,31 @@ body {
 
     /* Navigation links */
 
-  nav a {
-    font-size: 1.4rem;
-    color: #d32e2ee0;;
-    text-transform: uppercase;
-  }
-
-  .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-  .container-nav {
-    display: inline-block;
-    justify-content: space-between;
-    align-items: center;
-  }
-
   nav ul {
     list-style: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
-
-
-    
-    }
+    margin: 0;
+    text-align: center;
+  }
 
     nav li {
-       margin-left: 3em;
+      display: inline-block;
         }
         
-        nav a {
-            text-decoration: none;
-          }
-          
-          nav a:hover, nav a:focus {
+     nav a {
+        text-decoration: none;
+        width: 100px;
+        display: block;
+        padding: 25px 20px;
+        font-size: 25px;
+        color: #d32e2ee0;;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Special Elite', cursive;
+        text-align: center;
+        }
+        
+    nav a:hover, nav a:focus {
             color: #2b4270;
           }
 
