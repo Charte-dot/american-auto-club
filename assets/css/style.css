@@ -132,6 +132,7 @@ body {
         position: absolute ;
         text-align: center;
         line-height: 50px;
+        border-radius: 100%;
        
        
    }
@@ -245,6 +246,7 @@ body {
            font-size: 20px;
            color: #2b4270;
            font-family: 'Merriweather', serif;
+           resize: none;
     }    
 
       #charity-link {
@@ -530,10 +532,10 @@ body {
                #events-heading {
                 font-size: 150%;
              }
-
-               .signup-form {
-                   left: 10%;
-               }
+              .signup-form {
+                  left: 10%;
+              }
+               
             }
 
                      
@@ -545,6 +547,13 @@ body {
                 #events-heading {
                     font-size: 150%;
                  }
+
+                 .cover-text {
+                    width: 200px;
+                    height: 100px;
+                    font-size: 15px;
+                    line-height: 30px;
+                }
 
                 }
 
@@ -584,18 +593,74 @@ body {
                      }   
                 }
                 
-                @media screen and (max-width: 534.40px) {
+                @media screen and (max-width: 552px) {
                     nav a {
-                        padding: 2px 2px;
+                        padding: 0px 0px;
                     }
 
                      #logo {
-                       
-                        font-size: 5px;
-                        letter-spacing: 2px;
-                        padding: 0;
-                        margin: 0 auto;
-                     }   
-                }
-                
-                   
+                        font-size: 3px;
+                        letter-spacing: 1px;
+                      }
+                        .fas {
+                           font-size: 0.5px;
+                        }
+                    }
+
+                    @media screen and (max-width: 481.60px) {
+                    .cover-text {
+                        width: 200px;
+                        height: 100px;
+                        font-size: 10px;
+                    }
+                       #welcome {
+                           font-size: 20px;
+                       }
+
+                       .welcome-text {
+                           line-height: 30px;
+                       }
+
+                       tr > td {
+                        font-size: 70%;
+
+                       }
+                       .signup-form {
+                        left: 5%;
+                    }
+                    #contact-heading {
+                        font-size: 20px;
+                        text-align: center;
+                        left: 5%;
+                    }
+                    .address {
+                        left: 5%;
+                    }
+        
+                    .phone {
+                        left: 5%;
+                    }
+
+                    }
+
+                    @media screen and (max-width: 487px) {
+                        #about-us-heading {
+                            font-size: 20px;
+                        }
+ 
+                         .about-us-text {
+                             line-height: 15px;
+                         }
+
+                        }
+
+                        @media screen and (max-width: 487px) {
+                            tr > td {
+                                font-size: 60%;
+        
+                               }
+                        }
+
+                        
+                        
+            
