@@ -11,38 +11,40 @@
     <title>The Authentic American Auto Club</title>
   </head>
   <body>
-    <!--Navigation bar-->
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
-      <label class="logo">
-      <i class="fas fa-flag-usa fa-flip-horizontal"></i> American Auto Club <i class="fas fa-flag-usa"></i>
-     </label>
-         <ul>
-         <li>
-              <a href="index.html"> Home</a>
-         </li>
-         <li>
-             <a href="about.html">About</a>
-         </li>
-         <li>
-             <a href="events.html" class="active">Events</a>
-          </li>
-         <li>
-             <a href="gallery.html">Gallery</a>
-          </li>
-          <li>
-             <a href="sign-up.html">Signup</a>
-         </li>
-         <li>
-             <a href="contact.html">Contact</a>
-         </li>
-        </ul>
-     </nav>
+   <!--Navigation Bar-->
+   <header>
+    <h1 class="logo"><i class="fas fa-flag-usa fa-flip-horizontal"></i> American Auto Club <i class="fas fa-flag-usa"></i></h1>
      
-     <!--Main background Image-->
-    <section class="main-image" alt="cars parked in a car park">
-   </section>
+    <div class="container"></div>
+    <a href="index.html"></a>
+      <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+          </li>
+              <li>
+                  <a href="about.html">About</a>
+              </li>
+              <li>
+                  <a href="events.html" class="active">Events</a>
+              </li>
+              <li>
+                  <a href="gallery.html">Gallery</a>
+              </li>
+              <li>
+                <a href="sign-up.html">Sign Up</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero-outer">
+    <div id="hero-image"></div>
+    
     <section>
       <h2 id="events-heading">
         <i class="fas fa-calendar-alt"></i> Club Events 2022
@@ -59,7 +61,7 @@
             </strong>
           </p>
 
-          <table class="center">
+          <table class="events-table">
             <tr class="rows">
               <th>Date <i class="fas fa-calendar-day"></i></th>
               <th>Time <i class="far fa-clock"></i></th>
@@ -126,6 +128,7 @@
         </div>
       </div>
     </section>
+    
     <!--Footer and social media section-->
     <footer>
         <ul class="social-networks">

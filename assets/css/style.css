@@ -4,9 +4,6 @@
     margin: 0;
     padding: 0;
     border: none;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
  
 }
 
@@ -16,7 +13,22 @@ body {
     color: #3a3a3a;
     background-color: #edf2f5;
     }
-   
+
+    /* heading and logo */
+    
+    .logo {
+        text-transform: uppercase;
+        font-family: 'Special Elite', cursive;
+        letter-spacing: 0.25rem;
+        color: #2b4270;
+        
+        width: 100%;
+        text-align: center;
+        font-size: 3.75rem;
+
+        padding-top: 2%;
+    }
+
     h2, h3 {
         font-family:'Merriweather', serif; 
         width: 100%;
@@ -27,82 +39,76 @@ body {
     }
 
     /* Navigation links */
-     nav {
-        height: 5rem;
-        width: 100%;
-        padding-top: 1%;
-     }
 
-     .logo {
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+    nav li {
+      display: inline-block;
+        }
+        
+     nav a {
+        text-decoration: none;
+        width: 100px;
+        display: block;
+        padding: 1.563rem 1.25rem;
+        font-size: 25px;
+        color: #d32e2ee0;;
         text-transform: uppercase;
-        font-family: 'Special Elite', cursive;
-        letter-spacing: 0.25rem;
-        color:  #2b4270;
-        width: 100%;
-        text-align: left;
-        font-size: 2.75rem;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        line-height: 5rem;
-        padding: 0 5.25rem;
         font-weight: bold;
-    }
-
-    nav ul {
-        float: right;
-        margin-right: 1.25rem;
-    }
-
-    nav ul li {
-        display: inline-block;
-        line-height: 5rem;
-        margin: 0 0.313rem;
-    }
-
-    nav ul li a {
-        color:  #d32e2ee0;
-        font-size: 1.533rem;
-        text-transform: uppercase;
         font-family: 'Special Elite', cursive;
-    }
+        text-align: center;
+        }
+        
+    nav a:hover, nav a:focus {
+            color: #2b4270;
+          }
 
-    a.active, a:hover {
-        color: #2b4270;
-        transition: .5s;
-
-    }
-
-    .checkbtn {
-        font-size: 1.875rem;
-        color:  #d32e2ee0;
-        float: right;
-        line-height: 5rem;
-        margin-right: 2.5rem;
-        cursor: pointer;
-        display: none;
-    }
-
-    #check {
-        display: none;
-    }
-
+          .active {
+            color: #2b4270;
+          }
 
     /* main image */
-    .main-image {
+   
+    #hero-outer {
         width: 100%;
-        height: 32.5rem;
-        margin-top: 4rem;
-        background: url(../images/Hero-image.jpg) no-repeat;
-        background-size: cover;
-
-        
+        height: 37.5rem;
+        overflow: hidden;
+        position: relative;
     }
 
     #cover-text, #cover-text h2 {
-        color: #dfeef5;
- }
-   
-   
+          color: #dfeef5;
+   }
+
+    #hero-image {
+        width: 100%;
+        height: 37.5rem;
+        background: url(../images/Hero-image.jpg) no-repeat center center;
+        background-size: cover;
+        
+        
+        /* animate zoom on loading */
+        animation-name: hero-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+
+    }
+
+     /* level of zoom for hero image */
+
+     @keyframes hero-zoom {
+         from {
+            transform: scale(1); 
+        }
+         to {
+            transform: scale(1.1); 
+        }
+    }
 
     /* cover text on main image */
 
@@ -114,9 +120,9 @@ body {
         letter-spacing: 4px;
         
         width: 14.475rem;
-        height: 10.475rem;
+        height: 09.5rem;
 
-        padding-top: 1.09rem;
+        padding-top: 1.0rem;
         padding-left: 0.625rem;
 
         background-color: rgba(211, 46, 46, 0.7);
@@ -127,19 +133,19 @@ body {
 
         position: absolute ;
         text-align: center;
-        line-height: 2.925rem;
-        
+        line-height: 3.125rem;
+        border-radius: 20%;
        
     }
     
       /*club ethos */
            #club-ethos {
-             height: 35.5rem;
+             height: 37.5rem;
 
         }
 
          #welcome {
-           padding-top: 3%;
+           padding-top: 2%;
             width: 33%;
             margin: 0 auto;
             text-align: center;
@@ -193,7 +199,7 @@ body {
 
         /* footer */
         footer {
-         height: 4.25rem;
+         height: 6.25rem;
     }
             
         .social-networks {
@@ -459,81 +465,3 @@ body {
             
         }
           
-        /* media queries */
-      @media screen and (max-width: 952px) {
-                 label.logo {
-                  font-size: 2.275rem;
-                  padding-left: 2.525rem;
-
-              }
-
-              nav ul li a {
-                  font-size: 1.25rem;
-              }
-
-        }
-
-            @media screen and (max-width: 764px) {
-            label.logo {
-                font-size: 1.575rem;
-                padding-left: 1.525rem; }
-            
-            .checkbtn {
-                  display: block;
-              }
-             
-               ul {
-                  position: fixed;
-                  width: 100%;
-                  height: 100%;
-                  top: 5rem;
-                  left: -100%;
-                  text-align: center;
-                  background:  #2b4270; 
-                  transition: all .5s;
-              }
-
-              nav ul li {
-                  display: block;
-                  margin: 3.125rem 0;
-                  line-height: 1.875rem;
-                 
-              }
-
-              nav ul li a {
-                  font-size: 1.25;
-
-              }
-
-              a:hover, a.active {
-                  background: none;
-                  color: #dfeef5;
-
-              }
-              #check:checked ~ ul {
-                  left: 0;
-              }
-
-              .main-image {
-                width: 100%;
-                height: 37.5rem;
-                background: url(../images/Hero-image.jpg) no-repeat;
-                background-size: cover;
-              }
-
-              
-            }
-
-                
-
-                
-
-                  
-                   
-
-                
-
-
-
-
-            
