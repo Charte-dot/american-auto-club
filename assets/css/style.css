@@ -74,7 +74,7 @@ body {
 
     .checkbtn {
         font-size: 1.875rem;
-        color:  #2b4270;
+        color:  #d32e2ee0;
         float: right;
         line-height: 5rem;
         margin-right: 2.5rem;
@@ -91,7 +91,7 @@ body {
     .main-image {
         width: 100%;
         height: 35.5rem;
-        margin-top: 5rem;
+        margin-top: 2rem;
         background: url(../images/Hero-image.jpg) no-repeat;
         background-size: cover;
         overflow: hidden;
@@ -121,7 +121,7 @@ body {
         background-color: rgba(211, 46, 46, 0.7);
         
 
-        bottom: 0.275rem;
+        bottom: 4.275rem;
         right: 9.375rem;
 
         position: absolute ;
@@ -192,7 +192,7 @@ body {
 
         /* footer */
         footer {
-         height: 6.25rem;
+         height: 4.25rem;
     }
             
         .social-networks {
@@ -459,52 +459,7 @@ body {
         }
           
         /* media queries */
-       
-        @media screen and (max-width: 876px) {
-             #welcome {
-            font-size: 1.675rem;
-           }
-
-           .welcome-text {
-            font-size: 1.15rem;
-           }
-
-           .cover-text {
-            font-size: 0.19rem;
-            width: 13.475rem;
-            height: 09.5rem;
-            line-height: 2.525rem;
-            bottom: 3.275rem;
-           }
-
-           #about-us-heading {
-            font-size: 1.575rem;
-           }
-
-           .about-us-text {
-            line-height: 2.1rem;
-            font-size: 1.05rem;
-           }
-
-           #about-us {
-            height: 55.5rem;
-            }
-
-            #contact-heading {
-                font-size: 1.575rem;
-            }
-             
-            .address {
-                left: 20%;
-            }
-
-            .phone {
-                left: 20%;
-            }
-
-          }
-
-          @media screen and (max-width: 952px) {
+      @media screen and (max-width: 952px) {
                  label.logo {
                   font-size: 2.275rem;
                   padding-left: 2.525rem;
@@ -515,29 +470,71 @@ body {
                   font-size: 1.25rem;
               }
 
-              .cover-text {
-                bottom: 0.175rem;
+            
+
             }
 
-
-          }
-          @media screen and (max-width: 764px) {
+            @media screen and (max-width: 876px) {
+                #welcome {
+               font-size: 1.675rem;
+              }
+   
+              .welcome-text {
+               font-size: 1.15rem;
+              }
+   
+              .cover-text {
+               font-size: 0.19rem;
+               width: 13.475rem;
+               height: 09.5rem;
+               line-height: 2.525rem;
+               bottom: 4.175rem;
+              }
+   
+              #about-us-heading {
+               font-size: 1.575rem;
+              }
+   
+              .about-us-text {
+               line-height: 2.1rem;
+               font-size: 1.05rem;
+              }
+   
+              #about-us {
+               height: 60.5rem;
+               }
+   
+               #contact-heading {
+                   font-size: 1.575rem;
+               }
+                
+               .address {
+                   left: 20%;
+               }
+   
+               .phone {
+                   left: 20%;
+               }
+   
+             }
+   
+         @media screen and (max-width: 764px) {
             label.logo {
-                font-size: 1.975rem;
-                padding-left: 2.525rem; }
+                font-size: 1.575rem;
+                padding-left: 1.525rem; }
             
             .checkbtn {
                   display: block;
               }
-
-              ul {
+             
+               ul {
                   position: fixed;
                   width: 100%;
                   height: 100vh;
                   top: 5rem;
                   left: -100%;
                   text-align: center;
-                  background:  #2b4270;
+                  background:  #2b4270; 
                   transition: all .5s;
               }
 
@@ -570,7 +567,7 @@ body {
               }
 
               .cover-text {
-                bottom: 0.175rem;
+                bottom: 4.175rem;
             }
 
                 #welcome {
@@ -588,6 +585,71 @@ body {
                    .about-us-text {
                     line-height: 2.0rem;
                     font-size: 1.00rem;
+                   }
+        
+                   #about-us {
+                    height: 60.5rem;
+                    }
+
+                    .rows {
+                        font-size: 1.2rem;
+                    }
+
+                    tr > td {
+                        font-size: 0.9rem;
+                       }
+                       
+                    #events-heading {
+                        font-size: 1.8rem;
+                    }
+
+                    .important {
+                        font-size: 0.9rem;
+                    }
+
+                    .signup-form {
+                        left: 20%;
+                    }
+                    #contact-heading {
+                        font-size: 1.475rem;
+                    }
+                     
+                    .address {
+                        left: 15%;
+                    }
+        
+                    .phone {
+                        left: 15%;
+                    }
+
+                    .footer {
+                        height: 6.56rem;
+                    }
+
+                
+
+                }
+
+                @media screen and (max-width: 601px) {
+                    label.logo {
+                        font-size: 1.275rem;
+                        padding-left: 0.525rem;
+                }
+                #welcome {
+                    font-size: 1.075rem;
+                   }
+        
+                   .welcome-text {
+                    font-size: 0.95rem;
+                   }
+                    
+                  #about-us-heading {
+                    font-size: 1.075rem;
+                   }
+          
+                   .about-us-text {
+                    line-height: 2.0rem;
+                    font-size: 0.95rem;
                    }
         
                    #about-us {
@@ -625,13 +687,14 @@ body {
                         left: 15%;
                     }
 
-                    .cover-text {
-                        bottom: 0.175rem;
-                    }
+            }
 
-                }
-
-               
+            @media screen and (max-width: 456px) {
+                label.logo {
+                    font-size: 1.075rem;
+                    padding-left: 0.225rem;
+            }
+            }
                   
                    
 
