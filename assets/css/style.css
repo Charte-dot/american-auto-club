@@ -89,6 +89,7 @@ h3 {
 	height: 35.5rem;
 	background: url(../images/Hero-image.jpg) no-repeat center center;
 	background-size: cover;
+	background-position: center center;
 }
 
 
@@ -301,7 +302,7 @@ td {
 	padding: 3.125rem;
 }
 
-.signup-form>h2 {
+.signup-form > h2 {
 	color: #dfeef5;
 	margin-bottom: 1.563rem;
 	font-size: 140%;
@@ -503,11 +504,18 @@ td {
 		padding-top: 5%;
 		left: 10%;
 	}
-	.address {
+    .signup-form {
+	left: 20%;
+    }
+    .address {
 		left: 10%;
 	}
 	.phone {
 		left: 10%;
+	}
+
+	#hero-image {
+		width: 100%;
 	}
 }
 
@@ -516,24 +524,29 @@ td {
 		font-size: 1.5rem;
 	}
 	#welcome {
-		font-size: 1.0rem;
+		font-size: 1.1rem;
 		padding-top: 5%;
 	}
 	.welcome-text {
 		font-size: 1.0rem;
-		line-height: 2.0rem;
+		line-height: 1.5rem;
 	}
 	h3 {
 		font-size: 100%;
 	}
 	#times h2 {
-		font-size: 100%;
-	}
+		font-size: 80%;
+		text-align: left;
+    }
+
+	#times div {
+		font-size: 80%; }
+
 	#about-us {
 		height: 70.5rem;
 	}
 	#about-us-heading {
-		font-size: 1.25rem;
+		font-size: 1.1rem;
 		padding-top: 5%;
 	}
 	.about-us-text {
@@ -561,25 +574,62 @@ td {
 	.phone {
 		left: 2%;
 	}
+
+	#hero-image {
+		width: 100%;
+	}
+    
 }
+
+
 
 @media screen and (max-width: 413px) {
 	.logo {
 		font-size: 1.2rem;
 	}
+
+	#welcome {
+		font-size: 1.0rem;
+	}
 	.welcome-text {
 		font-size: 0.9rem;
-		line-height: 1.5rem;
+		line-height: 1.2rem;
 	}
 	#about-us-heading {
-		font-size: 1.0rem;
+		font-size: 0.9rem;
 		padding-top: 5%;
 	}
 	.about-us-text {
-		font-size: 1.05rem;
-		line-height: 1.5rem;
+		font-size: 1.0rem;
+		line-height: 1.3rem;
+	}
+    #hero-image {
+		width: 100%;
+	}
+    tr > td {
+		font-size: 50%; }
+
+	#times h2 {
+		font-size: 80%; }
+
+	.signup-form > h2 {
+		font-size: 100%;
 	}
 }
+
+	@media screen and (max-width: 333px) {
+    .logo {
+	    font-size: 1.0rem; 
+	}
+    #welcome {
+		font-size: 0.9rem; 
+	}	
+}
+
+
+
+
+
 
 
 
