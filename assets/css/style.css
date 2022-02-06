@@ -1,461 +1,585 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Special+Elite&display=swap');
-
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
- 
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
 body {
-    font-family: 'Merriweather', serif;
-    font-weight: 300%;
-    color: #3a3a3a;
-    background-color: #edf2f5;
-    }
+	font-family: 'Merriweather', serif;
+	font-weight: 300%;
+	color: #3a3a3a;
+	background-color: #edf2f5;
+}
 
-    /* heading and logo */
-    
-    .logo {
-        text-transform: uppercase;
-        font-family: 'Special Elite', cursive;
-        letter-spacing: 0.25rem;
-        color: #2b4270;
-        
-        width: 100%;
-        text-align: center;
-        font-size: 3.75rem;
 
-        padding-top: 2%;
-    }
+/* heading and logo */
 
-    h2, h3 {
-        font-family:'Merriweather', serif; 
-        width: 100%;
-        text-align: center;
-        font-size: 1.25rem;
-        padding-top: 1%;
-       
-    }
+.logo {
+	text-transform: uppercase;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: 0.25rem;
+	color: #2b4270;
+	width: 100%;
+	text-align: center;
+	font-size: 3.75rem;
+	padding-top: 2%;
+}
 
-    /* Navigation links */
+h2,
+h3 {
+	font-family: 'Merriweather', serif;
+	width: 100%;
+	text-align: center;
+	font-size: 1.25rem;
+	padding-top: 1%;
+}
 
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
 
-    nav li {
-      display: inline-block;
-        }
-        
-     nav a {
-        text-decoration: none;
-        width: 100px;
-        display: block;
-        padding: 1.563rem 1.25rem;
-        font-size: 25px;
-        color: #d32e2ee0;;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-family: 'Special Elite', cursive;
-        text-align: center;
-        }
-        
-    nav a:hover, nav a:focus {
-            color: #2b4270;
-          }
+/* Navigation links */
 
-          .active {
-            color: #2b4270;
-          }
 
-    /* main image */
-   
-   
+/* Wrapper*/
 
-    #cover-text, #cover-text h2 {
-          color: #dfeef5;
-   }
+#hamnav {
+	width: 100%;
+	background: #edf2f5;
+}
 
-    #hero-image {
-        width: 100%;
-        height: 35.5rem;
-        background: url(../images/Hero-image.jpg) no-repeat center center;
-        background-size: cover;
-        
-        
-        /* animate zoom on loading */
-        animation-name: hero-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
 
-    }
+/* Horizontal menu items*/
 
-     /* level of zoom for hero image */
+#hamitems {
+	display: flex;
+}
 
-     @keyframes hero-zoom {
-         from {
-            transform: scale(1); 
-        }
-         to {
-            transform: scale(1.1); 
-        }
-    }
+#hamitems a {
+	flex-grow: 1;
+	flex-basis: 0;
+	padding: 10px;
+	color: #af0d0d;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	font-size: 1.563rem;
+}
 
-    /* cover text on main image */
+#hamitems a:hover {
+	color: #2b4270;
+}
 
-    .cover-text  {
-        color: #dfeef5;
-        font-size: 0.238rem;
-        font-family: 'Merriweather', serif;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        
-        width: 14.475rem;
-        height: 09.5rem;
 
-        padding-top: 1.0rem;
-        padding-left: 0.625rem;
+/* Hide hamburger on large screens */
 
-        background-color: rgba(211, 46, 46, 0.7);
-        
+#hamnav label,
+#hamburger {
+	display: none;
+}
 
-        bottom: 4.275rem;
-        right: 9.375rem;
 
-        position: absolute ;
-        text-align: center;
-        line-height: 3.125rem;
-        border-radius: 20%;
-       
-    }
-    
-      /*club ethos */
-           #club-ethos {
-             height: 37.5rem;
+/* main image */
 
-        }
+#cover-text,
+#cover-text h2 {
+	color: #dfeef5;
+}
 
-         #welcome {
-           padding-top: 2%;
-            width: 33%;
-            margin: 0 auto;
-            text-align: center;
-            font-size: 1.875rem;
-            font-family: 'Merriweather', serif;
-            color: #2b4270;
-           
+#hero-image {
+	width: 100%;
+	height: 35.5rem;
+	background: url(../images/Hero-image.jpg) no-repeat center center;
+	background-size: cover;
+}
 
-    }
 
-        .welcome-text {
-           padding-top: 1%;
-            width: 80%;
-            line-height: 2.5rem;
-            text-align:justify;
-            margin: 0 auto;
-            font-size: 1.25rem;
-            color: #2b4270;
-            font-family: 'Merriweather', serif;
+/*club ethos */
 
-    }
+#club-ethos {
+	height: 37.5rem;
+}
 
-        /* event times */
+#welcome {
+	padding-top: 2%;
+	width: 33%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.875rem;
+	font-family: 'Merriweather', serif;
+	color: #2b4270;
+}
 
-        #times {
-            background-image: url(../images/meeting-times-image.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            width: 100%;
-            overflow: hidden;
-    }
+.welcome-text {
+	padding-top: 1%;
+	width: 80%;
+	line-height: 2.5rem;
+	text-align: justify;
+	margin: 0 auto;
+	font-size: 1.25rem;
+	color: #2b4270;
+	font-family: 'Merriweather', serif;
+}
 
-        #times div {
-            color: #dfeef5;
-            background-color: rgba(43, 66, 112, .7);
-            width: 25%;
-            height: 18.75rem;
-            float: left;
-            padding: 1.875rem 0 0 0.625rem;
-            text-align: center;
-            border: 0.125rem solid #dfeef5;
-            box-sizing: border-box;
-    }
 
-        #times h2 {
-            color: #dfeef5;
-          
-            
-    }
+/* event times */
 
-        /* footer */
-        footer {
-         height: 6.25rem;
-    }
-            
-        .social-networks {
-            text-align: center;
+#times {
+	background-image: url(../images/meeting-times-image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	overflow: hidden;
+}
 
-    }
+#times div {
+	color: #dfeef5;
+	background-color: rgba(43, 66, 112, .7);
+	width: 25%;
+	height: 18.75rem;
+	float: left;
+	padding: 1.875rem 0 0 0.625rem;
+	text-align: center;
+	border: 0.125rem solid #dfeef5;
+	box-sizing: border-box;
+}
 
-        .social-networks > li {
-          display: inline;
-    }
+#times h2 {
+	color: #dfeef5;
+}
 
-        .social-networks i {
-            font-size: 160%;
-            margin: 1%;
-            padding: 5%;
-            color: #2b4270;
-    }
 
-        
-        /* about us  */
-        #about-us {
-            height: 37.5rem;
+/* footer */
 
-    }
+footer {
+	height: 6.25rem;
+}
 
-        #about-us-heading {
-          padding-top: 2%;
-           width: 33%;
-           margin: 0 auto;
-           text-align: center;
-           font-size: 1.875rem;
-           font-family: 'Merriweather', serif;
-           color: #2b4270;
-          
+.social-networks {
+	text-align: center;
+}
 
-    }
+.social-networks>li {
+	display: inline;
+}
 
-       .about-us-text {
-          padding-top: 1%;
-           width: 80%;
-           line-height: 2.5rem;
-           text-align: justify;
-           margin: 0 auto;
-           font-size: 1.25rem;
-           color: #2b4270;
-           font-family: 'Merriweather', serif;
-           resize: none;
-    }    
+.social-networks i {
+	font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color: #2b4270;
+}
 
-      #charity-link {
-        width: 4%;
-        height: 4%;
-        text-align: center;
-    }
-        
-    /* events */
 
-      #events-heading {
-        color: #2b4270;
-        font-family: 'Merriweather', serif;
-        margin-top: 2%;
-        text-align: center;
-        font-size: 200%;
-    }
+/* about us  */
 
-      .important {
-        color:  #2b4270;
-        font-family: 'Merriweather', serif;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        text-align: center;
-        font-size: 100%;
-    }
-        
-     
+#about-us {
+	height: 37.5rem;
+}
 
-     .events-table {
-         text-align: left;
-         font-family: 'Merriweather', serif;
-    }
-         
-     table, th, td {
-       border: 0.188rem solid #dfeef5;
-       width: 100%;
-       height: 100%;
-       table-layout: fixed;
-       background-color: rgba(43, 66, 112, 0.479);
-    }
+#about-us-heading {
+	padding-top: 2%;
+	width: 33%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.875rem;
+	font-family: 'Merriweather', serif;
+	color: #2b4270;
+}
 
-    .rows {
-        font-family: 'Merriweather', serif;
-        text-align: center;
-        font-size: 150%;
-        color: #dfeef5;
-        width: 20%;
-    }
+.about-us-text {
+	padding-top: 1%;
+	width: 80%;
+	line-height: 2.5rem;
+	text-align: justify;
+	margin: 0 auto;
+	font-size: 1.25rem;
+	color: #2b4270;
+	font-family: 'Merriweather', serif;
+	resize: none;
+}
 
-    td {
-        padding-top: 1%;
-    }
+#charity-link {
+	width: 4%;
+	height: 4%;
+	text-align: center;
+}
 
-    td {
-        font-family: 'Merriweather', serif;
-        text-align: center;
-        font-size: 120%;
-        color: #dfeef5;
-        white-space: nowrap;
-        overflow: hidden;
-       
-    }
 
-    /* Gallery photos */  
+/* events */
 
-    #photos {
-        clear: both;
-        line-height: 0;
-        column-count: 4;
-        column-gap: 0;
+#events-heading {
+	color: #2b4270;
+	font-family: 'Merriweather', serif;
+	margin-top: 2%;
+	text-align: center;
+	font-size: 200%;
+}
 
-    }
+.important {
+	color: #2b4270;
+	font-family: 'Merriweather', serif;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+	font-size: 100%;
+}
 
-    .hidden {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-      }
+.events-table {
+	text-align: left;
+	font-family: 'Merriweather', serif;
+}
 
-    #photos > img {
-        width: 100%;
-    }
+table,
+th,
+td {
+	border: 0.188rem solid #dfeef5;
+	width: 100%;
+	height: 100%;
+	table-layout: fixed;
+	background-color: rgba(43, 66, 112, 0.479);
+}
 
-    /* sign up form  */
+.rows {
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	font-size: 150%;
+	color: #dfeef5;
+	width: 20%;
+}
 
-    .form-section {
-        clear: both;
-        background: url(../images/membership-photo.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 56.25rem;
-       }
-      
-       .signup-form {
-        margin: 9.375rem 10% 0 0;
-        color: #dfeef5;
-        background-color: rgba(43, 66, 112, 0.719);
-        max-width: 21.875rem;
-        position: absolute;
-        right: 25%;
-        padding: 3.125rem;
-        }
-        
-        .signup-form > h2 {
-            color:  #dfeef5;
-            margin-bottom: 1.563rem;
-            font-size: 140%;
-        }
-            
-            .text:hover {
-                border-color: #d32e2ee0;
-                border-width: 0.188rem;
-        }
-            
-            .sign-up-button {
-                margin-top: 1.25rem;
-                border-radius: 1.25rem;
-                border-color: #dfeef5;
-                padding: 0.625rem 1.875rem 0.625rem 1.875rem;
-                text-align: center;
-                font-size: 100%;
-                background-color: #5e7092da;
-                color: #dfeef5;
-                display: block;
-        }
-         
-           .join:hover {
-               background-color: #dfeef5;
-               color: #2b4270;
-        }
+td {
+	padding-top: 1%;
+}
 
-           .text {
-               font-family: 'Merriweather', serif;
-               font-size: 80%;
-               color: #24262b;
-               width: 100%;
-               height: 1.563rem;
-               margin: 0.625rem 0 1.25rem 0 ;
-               border: 0.063rem solid #dfeef5;
-               border-radius: 0.125rem;
-        }
+td {
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	font-size: 120%;
+	color: #dfeef5;
+	white-space: nowrap;
+	overflow: hidden;
+}
 
-           /* contact page */
 
-           #contact-heading {
-            padding-top: 2%;
-            width: 33%;
-            margin: 0 auto;
-            text-align: center;
-            font-size: 1.875rem;
-            font-family: 'Merriweather', serif;
-         }
+/* Gallery photos */
 
-         
+#photos {
+	clear: both;
+	line-height: 0;
+	column-count: 4;
+	column-gap: 0;
+}
 
-           .address {
-            margin: 0.625rem 10% 0 10%;
-            color: #dfeef5;
-            background-color: rgba(43, 66, 112, 0.719);
-            max-width: 21.875rem;
-            left: 28%;
-            padding: 1.563rem;
-            position: relative;
-            
-            
-        }
+.hidden {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
 
-           .location {
-               font-family: 'Special Elite', cursive;
-               font-size: 120%;
-               color: #dfeef5;
-               padding-bottom: 2%;
-        }
-             
-           .phone {
-            margin: 0.625rem 10% 0 10%;
-            color: #dfeef5;
-            background-color: rgba(43, 66, 112, 0.719);
-            max-width: 21.875rem;
-            left: 28%;
-            padding: 1.563rem;
-            position: relative;
-             
-            
-           
-        }
-           
-        .call {
-            font-family: 'Special Elite', cursive;
-            font-size: 120%;
-            color: #dfeef5;
-            padding-bottom: 2%;
-        }
-         
-           #map {
-            overflow: hidden;
-            padding: 25%;
-            position: relative;
-            height: 0;
-           
-            
-         
-        }
+#photos>img {
+	width: 100%;
+}
 
-          #map iframe {
-            float: right;
-            left: 5%;
-            top: 5%;
-            bottom: 0.313rem;
-            height: 60%;
-            width: 90%;
-            position: absolute;
-            background-color: #2b4270;
-            background-size: cover;
-            
-        }
+
+/* sign up form  */
+
+.form-section {
+	clear: both;
+	background: url(../images/membership-photo.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 56.25rem;
+}
+
+.signup-form {
+	margin: 9.375rem 10% 0 0;
+	color: #dfeef5;
+	background-color: rgba(43, 66, 112, 0.719);
+	max-width: 21.875rem;
+	position: absolute;
+	right: 25%;
+	padding: 3.125rem;
+}
+
+.signup-form>h2 {
+	color: #dfeef5;
+	margin-bottom: 1.563rem;
+	font-size: 140%;
+}
+
+.text:hover {
+	border-color: #d32e2ee0;
+	border-width: 0.188rem;
+}
+
+.sign-up-button {
+	margin-top: 1.25rem;
+	border-radius: 1.25rem;
+	border-color: #dfeef5;
+	padding: 0.625rem 1.875rem 0.625rem 1.875rem;
+	text-align: center;
+	font-size: 100%;
+	background-color: #5e7092da;
+	color: #dfeef5;
+	display: block;
+}
+
+.join:hover {
+	background-color: #dfeef5;
+	color: #2b4270;
+}
+
+.text {
+	font-family: 'Merriweather', serif;
+	font-size: 80%;
+	color: #24262b;
+	width: 100%;
+	height: 1.563rem;
+	margin: 0.625rem 0 1.25rem 0;
+	border: 0.063rem solid #dfeef5;
+	border-radius: 0.125rem;
+}
+
+
+/* contact page */
+
+#contact-heading {
+	padding-top: 2%;
+	width: 33%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.875rem;
+	font-family: 'Merriweather', serif;
+}
+
+.address {
+	margin: 0.625rem 10% 0 10%;
+	color: #dfeef5;
+	background-color: rgba(43, 66, 112, 0.719);
+	max-width: 21.875rem;
+	left: 28%;
+	padding: 1.563rem;
+	position: relative;
+}
+
+.location {
+	font-family: 'Special Elite', cursive;
+	font-size: 120%;
+	color: #dfeef5;
+	padding-bottom: 2%;
+}
+
+.phone {
+	margin: 0.625rem 10% 0 10%;
+	color: #dfeef5;
+	background-color: rgba(43, 66, 112, 0.719);
+	max-width: 21.875rem;
+	left: 28%;
+	padding: 1.563rem;
+	position: relative;
+}
+
+.call {
+	font-family: 'Special Elite', cursive;
+	font-size: 120%;
+	color: #dfeef5;
+	padding-bottom: 2%;
+}
+
+#map {
+	overflow: hidden;
+	padding: 25%;
+	position: relative;
+	height: 0;
+}
+
+#map iframe {
+	float: right;
+	left: 5%;
+	top: 5%;
+	bottom: 0.313rem;
+	height: 60%;
+	width: 90%;
+	position: absolute;
+	background-color: #2b4270;
+	background-size: cover;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 869px) {
+	.logo {
+		font-size: 3.05rem;
+	}
+	#welcome {
+		font-size: 1.65rem;
+		padding-top: 5%;
+	}
+	.welcome-text {
+		font-size: 1.15rem;
+		line-height: 2.0rem;
+	}
+	#about-us {
+		height: 60.5rem;
+	}
+	#about-us-heading {
+		font-size: 1.65rem;
+		padding-top: 5%;
+	}
+	.about-us-text {
+		font-size: 1.15rem;
+		line-height: 2.0rem;
+	}
+	#events-heading {
+		font-size: 1.65rem;
+		padding-top: 5%;
+	}
+	#contact-heading {
+		font-size: 1.65rem;
+		padding-top: 5%;
+		left: 20%;
+	}
+}
+
+@media screen and (max-width: 772px) {
+	/* For smaller screens */
+	#hamitems a {
+		box-sizing: border-box;
+		display: block;
+		width: 100%;
+		border-top: 1px solid #333;
+	}
+	/* Show hamburger Icon */
+	#hamnav label {
+		display: inline-block;
+		color: white;
+		background: #a02620;
+		font-style: normal;
+		font-size: 1.2em;
+		padding: 10px;
+	}
+	/*Toggles show/hide menu */
+	#hamitems {
+		display: none;
+	}
+	#hamnav input:checked~#hamitems {
+		display: block;
+	}
+	.logo {
+		font-size: 2.05rem;
+	}
+	#welcome {
+		font-size: 1.25rem;
+		padding-top: 5%;
+	}
+	.welcome-text {
+		font-size: 1.05rem;
+		line-height: 2.0rem;
+	}
+	#about-us {
+		height: 60.5rem;
+	}
+	#about-us-heading {
+		font-size: 1.25rem;
+		padding-top: 5%;
+	}
+	.about-us-text {
+		font-size: 1.05rem;
+		line-height: 1.8rem;
+	}
+	#events-heading {
+		font-size: 1.25rem;
+		padding-top: 5%;
+	}
+	.rows {
+		font-size: 100%;
+	}
+	tr>td {
+		font-size: 80%;
+	}
+	#contact-heading {
+		font-size: 1.25rem;
+		padding-top: 5%;
+		left: 10%;
+	}
+	.address {
+		left: 10%;
+	}
+	.phone {
+		left: 10%;
+	}
+}
+
+@media screen and (max-width: 528px) {
+	.logo {
+		font-size: 1.5rem;
+	}
+	#welcome {
+		font-size: 1.0rem;
+		padding-top: 5%;
+	}
+	.welcome-text {
+		font-size: 1.0rem;
+		line-height: 2.0rem;
+	}
+	h3 {
+		font-size: 100%;
+	}
+	#times h2 {
+		font-size: 100%;
+	}
+	#about-us {
+		height: 70.5rem;
+	}
+	#about-us-heading {
+		font-size: 1.25rem;
+		padding-top: 5%;
+	}
+	.about-us-text {
+		font-size: 1.05rem;
+		line-height: 1.8rem;
+	}
+	#events-heading {
+		font-size: 1.15rem;
+		padding-top: 5%;
+	}
+	tr>td {
+		font-size: 65%;
+	}
+	.signup-form {
+		left: 10%;
+	}
+	#contact-heading {
+		font-size: 1.25rem;
+		padding-top: 5%;
+		left: 10%;
+	}
+	.address {
+		left: 2%;
+	}
+	.phone {
+		left: 2%;
+	}
+}
+
+@media screen and (max-width: 413px) {
+	.logo {
+		font-size: 1.2rem;
+	}
+	.welcome-text {
+		font-size: 0.9rem;
+		line-height: 1.5rem;
+	}
+	#about-us-heading {
+		font-size: 1.0rem;
+		padding-top: 5%;
+	}
+	.about-us-text {
+		font-size: 1.05rem;
+		line-height: 1.5rem;
+	}
+}
+
+
+

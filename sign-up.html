@@ -7,109 +7,74 @@
     <meta name="description" content="American car club in Dublin, Ireland" />
     <meta name="keywords" content="american cars, car club, ireland dublin" />
     <link rel="stylesheet" href="assets/css/style.css" />
-
     <title>The Authentic American Auto Club</title>
   </head>
   <body>
-  <!--Navigation Bar-->
-  <header>
-    <h1 class="logo"><i class="fas fa-flag-usa fa-flip-horizontal"></i> American Auto Club <i class="fas fa-flag-usa"></i></h1>
-     
-    <div class="container"></div>
-    <a href="index.html"></a>
-      <nav>
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-          </li>
-              <li>
-                  <a href="about.html" class="active">About</a>
-              </li>
-              <li>
-                  <a href="events.html">Events</a>
-              </li>
-              <li>
-                  <a href="gallery.html">Gallery</a>
-              </li>
-              <li>
-                <a href="sign-up.html" class="active">Sign Up</a>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
-            </li>
-          </ul>
+    <!--Navigation Bar-->
+    <header>
+      <h1 class="logo">
+        <i class="fas fa-flag-usa fa-flip-horizontal"></i> American Auto Club <i class="fas fa-flag-usa"></i>
+      </h1>
+      <!--Nav wrapper-->
+      <nav id="hamnav">
+        <!--The Hamburger -->
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger" />
+        <!--Menu Items -->
+        <div id="hamitems">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="events.html">Events</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="sign-up.html">Sign-up</a>
+          <a href="contact.html">Contact</a>
+        </div>
       </nav>
-    </div>
-  </header>
-
-    
-     
-   <!--Sign up Form-->
+    </header>
+    <!--Sign up Form-->
     <section class="form-section">
       <form action="https://formdump.americanautos.com" method="post" class="signup-form">
-        <h2>Membership Sign up <i class="fas fa-edit"></i></h2>
+        <h2>Membership Sign up <i class="fas fa-edit"></i>
+        </h2>
         <label for="fname">First Name</label>
-        <input id="fname" type="text" required class="text"/>
-
+        <input id="fname" type="text" required class="text" />
         <label for="lname">Last Name</label>
-        <input id="lname" type="text" required class="text"/>
-
+        <input id="lname" type="text" required class="text" />
         <label for="email">Email Address</label>
-        <input id="email" type="email" required class="text"/>
-
+        <input id="email" type="email" required class="text" />
         <label for="american_car_owner">American Car owner</label>
-        <input id="american_car_owner" type="radio" name="member_level" value="american_car_owner" required/>
-        <br/>
+        <input id="american_car_owner" type="radio" name="member_level" value="american_car_owner" required />
+        <br />
         <label for="car_enthusiast">Vehicle Enthusiast/Supporter</label>
-        <input id="car_enthusiast" type="radio" name="member_level" value="car_enthusiast" required/>
-
-        <input type="submit" value="Submit" class="sign-up-button"/>
+        <input id="car_enthusiast" type="radio" name="member_level" value="car_enthusiast" required />
+        <input type="submit" value="Submit" class="sign-up-button" />
       </form>
     </section>
-   
-   
     <!--Footer and social media section-->
     <footer>
-        <ul class="social-networks">
-          <li>
-            <a href="https://facebook.com"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit Our Facebook page (opens in a new tab)">
-              <i class="fab fa-facebook-square"></i>
+      <ul class="social-networks">
+        <li>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit Our Facebook page (opens in a new tab)">
+            <i class="fab fa-facebook-square"></i>
           </a>
-          </li>
-          <li>
-            <a href="https://twitter.com"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit Our Twitter page (opens in a new tab)">
-              <i class="fab fa-twitter-square"></i> 
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit Our Twitter page (opens in a new tab)">
+            <i class="fab fa-twitter-square"></i>
           </a>
-          </li>
-          <li>
-            <a href="https://instagram.com"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit Our Instagram page (opens in a new tab)">
-              <i class="fab fa-instagram-square"></i>
+        </li>
+        <li>
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit Our Instagram page (opens in a new tab)">
+            <i class="fab fa-instagram-square"></i>
           </a>
-          </li>
-          <li>
-            
-          <a href="https://youtube.com"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit Our Youtube page (opens in a new tab)">
-              <i class="fab fa-youtube-square"></i>
+        </li>
+        <li>
+          <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit Our Youtube page (opens in a new tab)">
+            <i class="fab fa-youtube-square"></i>
           </a>
-          </li>
-        </ul>
-      </footer>
-  
-      <script
-      src="https://kit.fontawesome.com/c7dbda0798.js"
-      crossorigin="anonymous">
-      </script>
-    </body>
-    </html>
+        </li>
+      </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+  </body>
+</html>

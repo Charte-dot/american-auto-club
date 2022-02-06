@@ -1,128 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="American car club in Dublin, Ireland">
     <meta name="keywords" content="american cars, car club, ireland dublin">
     <link rel="stylesheet" href="assets/css/style.css">
-   
-
     <title>The Authentic American Auto Club</title>
-</head>
-<body>
-  <!--Navigation Bar-->
-  <header>
-    <h1 class="logo"><i class="fas fa-flag-usa fa-flip-horizontal"></i> American Auto Club <i class="fas fa-flag-usa"></i></h1>
-     
-    <div class="container"></div>
-    <a href="index.html"></a>
-      <nav>
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-          </li>
-              <li>
-                  <a href="about.html">About</a>
-              </li>
-              <li>
-                  <a href="events.html">Events</a>
-              </li>
-              <li>
-                  <a href="gallery.html">Gallery</a>
-              </li>
-              <li>
-                <a href="sign-up.html">Sign Up</a>
-              </li>
-              <li>
-                <a href="contact.html" class="active">Contact</a>
-            </li>
-          </ul>
+  </head>
+  <body>
+    <!--Navigation Bar-->
+    <header>
+      <h1 class="logo">
+        <i class="fas fa-flag-usa fa-flip-horizontal"></i> American Auto Club <i class="fas fa-flag-usa"></i>
+      </h1>
+      <!--Nav wrapper-->
+      <nav id="hamnav">
+        <!--The Hamburger -->
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger" />
+        <!--Menu Items -->
+        <div id="hamitems">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="events.html">Events</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="sign-up.html">Sign-up</a>
+          <a href="contact.html">Contact</a>
+        </div>
       </nav>
-    </div>
-  </header>
-   
-  <div id="hero-image"></div>
-      
-   
-         <!--Contact us section-->
-         <section id="contact">
-         <h2 id="contact-heading">Contact Us <i class="fas fa-envelope-square"></i></h2>        
-        
-        <div>
+    </header>
+    <div id="hero-image"></div>
+    <!--Contact us section-->
+    <section id="contact">
+      <h2 id="contact-heading">Contact Us <i class="fas fa-envelope-square"></i>
+      </h2>
+      <div>
         <div class="address">
-            <h2 class="location">Location <i class="fas fa-map-marker-alt"></i></h2>
-            <p>The Authentic American Auto Club</p>
-            <p>Unit 52</p>
-            <p>Baldonell Industrial Estate</p>
-            <p>Dublin</p>
-            <br>
-            <p>GPS: 53.30757209508063, -6.437370093672449</p>
-           
+          <h2 class="location">Location <i class="fas fa-map-marker-alt"></i>
+          </h2>
+          <p>The Authentic American Auto Club</p>
+          <p>Unit 52</p>
+          <p>Baldonell Industrial Estate</p>
+          <p>Dublin</p>
+          <br>
+          <p>GPS: 53.30757209508063, -6.437370093672449</p>
         </div>
         <div class="phone">
-            <h2 class="call">Contact Information <i class="fas fa-phone"></i></h2>
-            <p>Phone us: 01-7098765</p>
-            <br>
-            <p>Email: american-autos@cars.com</p>
-            
-           
+          <h2 class="call">Contact Information <i class="fas fa-phone"></i>
+          </h2>
+          <p>Phone us: 01-7098765</p>
+          <br>
+          <p>Email: american-autos@cars.com</p>
         </div>
-
-        </div>
-   
-
-       </section>
-        <!--Google map--> 
-       <div id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3445.258888247676!2d-6.436363254175977!3d53.30809876332677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1643559620789!5m2!1sen!2sie" 
-        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        
-         <!--Footer and social media section-->
-    
-            <footer>
-            <ul class="social-networks">
-              <li>
-                <a href="https://facebook.com"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Visit Our Facebook page (opens in a new tab)">
-                  <i class="fab fa-facebook-square"></i>
-              </a>
-              </li>
-              <li>
-                <a href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Visit Our Twitter page (opens in a new tab)">
-                  <i class="fab fa-twitter-square"></i> 
-              </a>
-              </li>
-              <li>
-                <a href="https://instagram.com"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Visit Our Instagram page (opens in a new tab)">
-                  <i class="fab fa-instagram-square"></i>
-              </a>
-              </li>
-              <li>
-                
-              <a href="https://youtube.com"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Visit Our Youtube page (opens in a new tab)">
-                  <i class="fab fa-youtube-square"></i>
-              </a>
-              </li>
-            </ul>
-          </footer>
-      
-          <script
-          src="https://kit.fontawesome.com/c7dbda0798.js"
-          crossorigin="anonymous">
-          </script>
-        </body>
-        </html>
+      </div>
+    </section>
+    <!--Google map-->
+    <div id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3445.258888247676!2d-6.436363254175977!3d53.30809876332677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1643559620789!5m2!1sen!2sie" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <!--Footer and social media section-->
+    <footer>
+      <ul class="social-networks">
+        <li>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit Our Facebook page (opens in a new tab)">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit Our Twitter page (opens in a new tab)">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit Our Instagram page (opens in a new tab)">
+            <i class="fab fa-instagram-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit Our Youtube page (opens in a new tab)">
+            <i class="fab fa-youtube-square"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+  </body>
+</html>
