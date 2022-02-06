@@ -17,7 +17,7 @@ The Authentic American Auto club will be useful for member's for important conta
 
 # Features
 
-![Project](assets/media/project.png)
+![Project](assets/media/responsive-design.png)
 
 The main features of the website consists of a large Logo with the name of the club and navigational menu centered directly below it. Styled in Blue red contrasting against white background but keeping with the american flag colors. This runs across all six pages of the website
 
@@ -42,17 +42,21 @@ My project achieves this by keeping infomation precise, easy to navigate site, b
 
 ## Existing Features
 
-![main-header](assets/media/main-header.png)
+![main-header](assets/media/Nav-bar-large.png)
 
-- __Navigation Bar__
+- __Navigation Bar for large screen__
  
      - Featured on all six pages of the website, the full responsive navigation bar includes links to about page, events, gallery, sign-up form and contact information page.
 
      - This feature will allow user to navigate clearly throughout the site with ease. The navigation bar also has feed back letting the user know which page they are currently on as the colour changes from red to blue when clicked.
 
- ![intro-page-image](assets/media/main-image.png)
 
- - __Landing page image__
+![main-header](assets/media/nav-bar-small-screen.png)
+
+- __Navigation Bar for small screen__
+ 
+ 
+
 
  
 
