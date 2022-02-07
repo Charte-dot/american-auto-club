@@ -9,7 +9,7 @@ body {
 	font-family: 'Merriweather', serif;
 	font-weight: 300%;
 	color: #3a3a3a;
-	background-color: #edf2f5;
+	background-color: #102138;
 }
 
 
@@ -19,8 +19,8 @@ body {
 	text-transform: uppercase;
 	font-family: 'Special Elite', cursive;
 	letter-spacing: 0.25rem;
-	color: #2b4270;
-	width: 100%;
+	color: #7EA1C4;
+    width: 100%;
 	text-align: center;
 	font-size: 3.75rem;
 	padding-top: 2%;
@@ -43,7 +43,7 @@ h3 {
 
 #hamnav {
 	width: 100%;
-	background: #edf2f5;
+	background: #102138;
 }
 
 
@@ -65,7 +65,7 @@ h3 {
 }
 
 #hamitems a:hover {
-	color: #2b4270;
+	color: #edf0f5;
 }
 
 
@@ -81,7 +81,7 @@ h3 {
 
 #cover-text,
 #cover-text h2 {
-	color: #dfeef5;
+	color: #7EA1C4;
 }
 
 #hero-image {
@@ -106,7 +106,8 @@ h3 {
 	text-align: center;
 	font-size: 1.875rem;
 	font-family: 'Merriweather', serif;
-	color: #2b4270;
+	color: #7EA1C4;
+	left: 30%;
 }
 
 .welcome-text {
@@ -116,7 +117,7 @@ h3 {
 	text-align: justify;
 	margin: 0 auto;
 	font-size: 1.25rem;
-	color: #2b4270;
+	color: #7EA1C4;
 	font-family: 'Merriweather', serif;
 }
 
@@ -140,7 +141,7 @@ h3 {
 	float: left;
 	padding: 1.875rem 0 0 0.625rem;
 	text-align: center;
-	border: 0.125rem solid #dfeef5;
+	border: 0.125rem solid #102138;
 	box-sizing: border-box;
 }
 
@@ -167,7 +168,7 @@ footer {
 	font-size: 160%;
 	margin: 1%;
 	padding: 5%;
-	color: #2b4270;
+	color: #7EA1C4;
 }
 
 
@@ -184,7 +185,7 @@ footer {
 	text-align: center;
 	font-size: 1.875rem;
 	font-family: 'Merriweather', serif;
-	color: #2b4270;
+	color: #7EA1C4;
 }
 
 .about-us-text {
@@ -194,7 +195,7 @@ footer {
 	text-align: justify;
 	margin: 0 auto;
 	font-size: 1.25rem;
-	color: #2b4270;
+	color: #7EA1C4;
 	font-family: 'Merriweather', serif;
 	resize: none;
 }
@@ -209,7 +210,7 @@ footer {
 /* events */
 
 #events-heading {
-	color: #2b4270;
+	color: #7EA1C4;
 	font-family: 'Merriweather', serif;
 	margin-top: 2%;
 	text-align: center;
@@ -217,7 +218,7 @@ footer {
 }
 
 .important {
-	color: #2b4270;
+	color: #7EA1C4;
 	font-family: 'Merriweather', serif;
 	margin-top: 2%;
 	margin-bottom: 2%;
@@ -233,18 +234,19 @@ footer {
 table,
 th,
 td {
-	border: 0.188rem solid #dfeef5;
+	border: 0.188rem solid #7EA1C4;
 	width: 100%;
 	height: 100%;
 	table-layout: fixed;
-	background-color: rgba(43, 66, 112, 0.479);
+	background-color: #102138
+	;
 }
 
 .rows {
 	font-family: 'Merriweather', serif;
 	text-align: center;
 	font-size: 150%;
-	color: #dfeef5;
+	color: #7EA1C4;
 	width: 20%;
 }
 
@@ -295,7 +297,7 @@ td {
 .signup-form {
 	margin: 9.375rem 10% 0 0;
 	color: #dfeef5;
-	background-color: rgba(43, 66, 112, 0.719);
+	background-color: rgba(31, 47, 80, 0.719);
 	max-width: 21.875rem;
 	position: absolute;
 	right: 25%;
@@ -345,6 +347,7 @@ td {
 /* contact page */
 
 #contact-heading {
+	color: #7EA1C4;
 	padding-top: 2%;
 	width: 33%;
 	margin: 0 auto;
@@ -355,8 +358,8 @@ td {
 
 .address {
 	margin: 0.625rem 10% 0 10%;
-	color: #dfeef5;
-	background-color: rgba(43, 66, 112, 0.719);
+	color: #102138;
+	background-color: #7EA1C4;
 	max-width: 21.875rem;
 	left: 28%;
 	padding: 1.563rem;
@@ -366,14 +369,14 @@ td {
 .location {
 	font-family: 'Special Elite', cursive;
 	font-size: 120%;
-	color: #dfeef5;
+	color: #102138;
 	padding-bottom: 2%;
 }
 
 .phone {
 	margin: 0.625rem 10% 0 10%;
-	color: #dfeef5;
-	background-color: rgba(43, 66, 112, 0.719);
+	color: #102138;
+	background-color: #7EA1C4;
 	max-width: 21.875rem;
 	left: 28%;
 	padding: 1.563rem;
@@ -383,7 +386,7 @@ td {
 .call {
 	font-family: 'Special Elite', cursive;
 	font-size: 120%;
-	color: #dfeef5;
+	color: #102138;
 	padding-bottom: 2%;
 }
 
