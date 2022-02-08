@@ -21,7 +21,7 @@ body {
 	font-family: 'Special Elite', cursive;
 	letter-spacing: 0.25rem;
 	color: #fbfcfd;
-    width: 100%;
+	width: 100%;
 	text-align: center;
 	font-size: 3.75rem;
 	padding-top: 2%;
@@ -202,7 +202,7 @@ footer {
 	color: red;
 	background-color: transparent;
 	text-decoration: none;
-  }
+}
 
 
 /* events */
@@ -266,7 +266,7 @@ td {
 #photos {
 	clear: both;
 	line-height: 0;
-	column-count: 4;
+	column-count: 3;
 	column-gap: 0;
 }
 
@@ -301,7 +301,7 @@ td {
 	padding: 3.125rem;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
 	color: #fbfcfd;
 	margin-bottom: 1.563rem;
 	font-size: 140%;
@@ -413,37 +413,49 @@ td {
 	.logo {
 		font-size: 3.05rem;
 	}
+
 	#welcome {
 		font-size: 1.65rem;
 		padding-top: 5%;
 	}
+
 	.welcome-text {
 		font-size: 1.15rem;
 		line-height: 2.0rem;
 	}
+
 	#about-us {
 		height: 60.5rem;
 	}
+
 	#about-us-heading {
 		font-size: 1.65rem;
 		padding-top: 5%;
 	}
+
 	.about-us-text {
 		font-size: 1.15rem;
 		line-height: 2.0rem;
 	}
+
 	#events-heading {
 		font-size: 1.65rem;
 		padding-top: 5%;
 	}
+
 	#contact-heading {
 		font-size: 1.65rem;
 		padding-top: 5%;
 		left: 20%;
 	}
+
+	.signup-form {
+		right: 0;
+	}
 }
 
 @media screen and (max-width: 772px) {
+
 	/* For smaller screens */
 	#menu-items a {
 		box-sizing: border-box;
@@ -451,6 +463,7 @@ td {
 		width: 100%;
 		border-top: 1px solid #333;
 	}
+
 	/* Show hamburger Icon */
 	#menu-btn label {
 		display: inline-block;
@@ -460,62 +473,84 @@ td {
 		font-size: 1.2em;
 		padding: 10px;
 	}
+
 	/*Toggles show/hide menu */
 	#menu-items {
 		display: none;
 	}
+
 	#menu-btn input:checked~#menu-items {
 		display: block;
 	}
+
 	.logo {
 		font-size: 2.05rem;
 	}
+
 	#welcome {
 		font-size: 1.25rem;
 		padding-top: 5%;
 	}
+
 	.welcome-text {
 		font-size: 1.05rem;
 		line-height: 2.0rem;
 	}
+
 	#about-us {
 		height: 60.5rem;
 	}
+
 	#about-us-heading {
 		font-size: 1.25rem;
 		padding-top: 5%;
 	}
+
 	.about-us-text {
 		font-size: 1.05rem;
 		line-height: 1.8rem;
 	}
+
 	#events-heading {
 		font-size: 1.25rem;
 		padding-top: 5%;
 	}
+
 	.rows {
 		font-size: 100%;
 	}
+
 	tr>td {
 		font-size: 80%;
 	}
+
 	#contact-heading {
 		font-size: 1.25rem;
 		padding-top: 5%;
 		left: 10%;
 	}
-    .signup-form {
-	left: 20%;
-    }
-    .address {
+
+	.signup-form {
+		left: 20%;
+	}
+
+	.address {
 		left: 10%;
 	}
+
 	.phone {
 		left: 10%;
 	}
 
 	#hero-image {
 		width: 100%;
+	}
+
+	#photos {
+		clear: both;
+		line-height: 0;
+		column-count: 2;
+		column-gap: 0;
 	}
 }
 
@@ -523,54 +558,67 @@ td {
 	.logo {
 		font-size: 1.5rem;
 	}
+
 	#welcome {
 		font-size: 1.1rem;
 		padding-top: 5%;
 	}
+
 	.welcome-text {
 		font-size: 1.0rem;
 		line-height: 1.5rem;
 	}
+
 	h3 {
 		font-size: 100%;
 	}
+
 	#times h2 {
 		font-size: 80%;
 		text-align: left;
-    }
+	}
 
 	#times div {
-		font-size: 80%; }
+		font-size: 80%;
+	}
 
 	#about-us {
 		height: 70.5rem;
 	}
+
 	#about-us-heading {
 		font-size: 1.1rem;
 		padding-top: 5%;
 	}
+
 	.about-us-text {
 		font-size: 1.05rem;
 		line-height: 1.8rem;
 	}
+
 	#events-heading {
 		font-size: 1.15rem;
 		padding-top: 5%;
 	}
+
 	tr>td {
 		font-size: 65%;
 	}
+
 	.signup-form {
 		left: 10%;
 	}
+
 	#contact-heading {
 		font-size: 1.25rem;
 		padding-top: 5%;
 		left: 10%;
 	}
+
 	.address {
 		left: 2%;
 	}
+
 	.phone {
 		left: 2%;
 	}
@@ -578,7 +626,7 @@ td {
 	#hero-image {
 		width: 100%;
 	}
-    
+
 }
 
 
@@ -591,45 +639,45 @@ td {
 	#welcome {
 		font-size: 1.0rem;
 	}
+
 	.welcome-text {
 		font-size: 0.9rem;
 		line-height: 1.2rem;
 	}
+
 	#about-us-heading {
 		font-size: 0.9rem;
 		padding-top: 5%;
 	}
+
 	.about-us-text {
 		font-size: 1.0rem;
 		line-height: 1.3rem;
 	}
-    #hero-image {
+
+	#hero-image {
 		width: 100%;
 	}
-    tr > td {
-		font-size: 50%; }
+
+	tr>td {
+		font-size: 50%;
+	}
 
 	#times h2 {
-		font-size: 80%; }
+		font-size: 80%;
+	}
 
-	.signup-form > h2 {
+	.signup-form>h2 {
 		font-size: 100%;
 	}
 }
 
-	@media screen and (max-width: 333px) {
-    .logo {
-	    font-size: 1.0rem; 
+@media screen and (max-width: 333px) {
+	.logo {
+		font-size: 1.0rem;
 	}
-    #welcome {
-		font-size: 0.9rem; 
-	}	
+
+	#welcome {
+		font-size: 0.9rem;
+	}
 }
-
-
-
-
-
-
-
-
