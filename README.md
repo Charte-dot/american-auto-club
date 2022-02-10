@@ -39,10 +39,10 @@ I choose the colour scheme based on what I wanted to convey visually to the user
 - Club logo/main title/main text bodies
 Upon opening the site, the main logo and all text throughout the site is a brilliant white. I choose this colour to contrast against the navy and to stand out and catch the users attention. The colour white symbolises understanding, protection and promotes feelings of fresh beginnings and renewal. This is important to gain new members to the club aswell as bringing current members back.
 
--Main menu/Navigation
+- Main menu/Navigation
 For the main navigation menu I choose red, the final colour in the American flag. Red symbolises engery and excitment. Red is energizing as it excites the emotions and motivates us to take action. The function of the navigation being red, is to motivate user to explore the website via the navigation menu.
 
-# Features
+# __Features__
 From the landing page to the contact page there is six pages in total, layout in this order to promote intuitive learning for the user and to guide curiousity of the site user. The navigation menu and main logo are featured on all pages of the website.
 
 - Landing page
@@ -67,20 +67,96 @@ This website is built for new members who are interested in Joining the club, cu
 
 My project achieves this by keeping infomation precise, easy to navigate site, bright and visable navigation bar which gives feed back to the page you are on. Eye catching background images enhance the overall experience by showning the site user what type of club website they are viewing.
 
-## __Existing features__
+# __Existing features__
 
--  __Navigation Bar__
+ ## Navigation Bar
 
 - This is featured across all page of the site. It links home, about, events, gallery, sign-up and contact pages in an easy to follow but responsive design.
 - This section will help the user to navigate the site with ease. Navigation bar is fully responsive changing color when clicked.
 - The navigation bar is usable and suitable in this style for large screens and tablets.
 ![navigation](assets/media/nav-menu.png)
 
-- This navigation bar is mobile responsive. 
-- It serves the same purpose as the expanded navigation bar, but is compact and saves the screen from being cluttered and busy.
-- Neat and compact but is still easy for the user to navigate the site with ease.
+## Smaller screen navigation bar
+  - This navigation bar is mobile responsive. 
+  - It serves the same purpose as the expanded navigation bar, but is compact and saves the screen from being cluttered and busy.
+  - Neat and compact but is still easy for the user to navigate the site with ease.
 
 ![small screen navigation](assets/media/smaller-nav.png)
+
+## Landing page image
+- A bright image of staged American muscle cars greets the user on onpening the website. The background cars are a darker shade, while the front car is a red to match in with colour scheme.
+- This image introduces the user to the type of car club and tone for the following content within the site.
+
+![landing page image](assets/media/Main-picture.png)
+
+## Welcome message
+- It's a brief introduction, welcoming site users to feel comfortable to come explore the site and even join if it's a club that they have been seeking out.
+- A general overview helps the site user seek out content within the site by gently sign posting the other pages available with in the site.
+   
+![Welcome message](assets/media/welcome.png)
+
+ ## Important times
+- Displayed on the landing page, the times section is an american flag graphic to incorporate the over all theme.
+- These are the clubs most important club meet up times. 
+- It  is displayed in this style to be eye catching and highlight important dates at a glance.
+
+![Times](assets/media/times.png)
+
+## Footer
+- The footer contains all relavent social media links for the clubs social media pages.
+- These link open on a new page, redirecting the user to the social media site.
+- The footer is displayed across all six pages for easy access and to prevent the user have to search a previous page for the social media information.
+![Footer](assets/media/footer.png)
+
+## About us
+ - This section is for the origin story for the club, how, why and when the club started. This help convey a friendly social  club.
+- This page also contains infomation regarding charity that the club fund raise for. A brief overview on how the club raises    funds and what the charity uses raised money for. 
+- A link to the charity website is also included for the user to explore this great cause themselves.
+- The aim for the about section is to convey an all inclusive, community club.
+
+![About us](assets/media/about.png)
+
+## Events
+- The purpose of this page is to make members new and current aware of the club events scheduled for the calendar year.
+- It's to help generate public participation with charity car run and the annual car show. 
+- The information is displayed in an easy to read table format.
+
+![Events](assets/media/Events.png)
+
+## Gallery
+- The gallery displays bright attractive picture of American muscle cars for the user to view.
+- There is a range of picture from club meetings, car show and current members cars.
+- It is displayed in a masonery format to make view easier on the user while making the most of the viewing space on the site.
+
+![Gallery](assets/media/gallery.png)
+
+## Sign-up Form
+- The sign-up form for membership is styled in the same theme and tone as the rest of the site.
+- Red ford mustang as the background with membership form layed over the image.
+- Again red to invoke action, gentle nudge to encourage new members to take the step and join the club.
+- Sign-up form is easy to fill in form, with feed back on each section.
+- When a user is filling in the form, the text box border turns red alertsing the user to which section they are currently filling in.
+
+![Sign-in](assets/media/sign-up.png)
+
+## Contact
+- This is the final page in the website. It conatins important information on how to contact the club.
+- Contact details are layout in an easy to read format.
+- Address, phone number, email, gps co-ordinates all displayed for any user to view and contact the club for any concerns.
+- Supplimenting the contact details is a google map of the general area of where the club is based.This is to let the user seen upon a glance where the club is located and if this location is easy accessable to get to for member gatherings or car show event.
+
+![Contact](assets/media/contact.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
