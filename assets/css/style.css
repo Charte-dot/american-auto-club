@@ -55,7 +55,7 @@ h3 {
 	flex-grow: 1;
 	flex-basis: 0;
 	padding: 10px;
-	color: #be1d1d;
+	color: #f14040;
 	text-decoration: none;
 	text-align: center;
 	font-family: 'Special Elite', cursive;
@@ -123,7 +123,7 @@ h3 {
 /* event times */
 
 #times {
-	background-image: url(../images/meeting-times-image.jpg);
+	background-image: url(../images/meeting-times-image\ \(1\).jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
