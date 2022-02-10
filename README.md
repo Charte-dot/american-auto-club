@@ -31,7 +31,7 @@
 
 ##  __Colour Scheme__
 
-![colours](assets/media/colour-scheme.png)
+![colours](assets/media/color-scheme.png)
 
 I choose the colour scheme based on what I wanted to convey visually to the user upon opening the website but also to keep in tone with the colours on the American flag.
 - Background: Full navy background as navy conveys importance, confidence, power, and authority, as well as intelligence, stability and unity. Also it is one of the main colours in the American flag that encapulates all the stars that represent the American states. Purpose of this colour on the website is to evoke the sense of unity and togetherness of the club.
@@ -148,8 +148,46 @@ My project achieves this by keeping infomation precise, easy to navigate site, b
 ![Contact](assets/media/contact.png)
 
 # __Testing__
- 
- 
+ I used a multiple resources for testing my code, HTML and CSS validators, Chrome Dev Tools Lighthouse tests as well as thorough user testing. Any errors of bug found will be logged in [Bugs & Fixes](#bugs-&-fixes) section.
+
+ ## Tests
+ ### [HTML Validator](https://validator.w3.org/)
+
+All HTML pages have been tested with the w3c validator and passed with no errors.
+
+### [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+
+style.css has been passed through the CSS validator and passed with no errors.
+
+### [Chrome Dev Tools - Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+
+For running the lighthouse tests, I used an incognito window to avoid any errors and issues that could be caused by any of my Chrome extensions.
+
+- Intially when I ran lighthouse I was getting a performance score of 95. This was due to image file size form main image used on the site and the image used on the times section on landing page.
+
+- Upon resizing the images using [tiny jpg](https://tinyjpg.com/) the performance value of the site increased.
+
+- Also lighthouse flagged that accessablity needed adjusting. The shade of red against the navy background was effecting the visablity. 
+
+- When I brightened the shade of red used to a brighter hue and ran lighthouse again, accessability issues were resolved.
+
+### ![Chrome Dev Tools - Lighthouse](assets/media/score.png)
+
+
+![Chrome Dev Tools - Lighthouse](assets/media/diagnostic.png)
+
+- When I reviewed the performance score of 99 the error that was been presented is a serve static assets with an efficient cache issue.
+
+- Unsure of what this diagnosis meant, I research the term on google to see if this would impact my site in any way. I did find a number of solutions to stop this from happening in the future.
+
+- This issue won't have any impact on my current project but for future projects I can implement this through javascript.
+
+
+
+
+
+
+
 
 
 
