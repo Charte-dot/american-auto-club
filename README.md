@@ -19,7 +19,7 @@
 
 - The site will also be a place where Members of the public can view photos of current members cars and calendar information for up coming car shows and meet up's to view New and classic American vehicles.
 
-- The American Auto club will be useful for member's for important contact details, up coming calendar events more importantly a 
+- The American Auto club will be useful for member's for important contact details, up coming calendar events more importantly.
 
 # UX Design
 ![Wireframe image](assets/media/Wireframe1.png)
@@ -34,16 +34,17 @@
 ![colours](assets/media/color-scheme.png)
 
 I choose the colour scheme based on what I wanted to convey visually to the user upon opening the website but also to keep in tone with the colours on the American flag.
-- Background: Full navy background as navy conveys importance, confidence, power, and authority, as well as intelligence, stability and unity. Also it is one of the main colours in the American flag that encapulates all the stars that represent the American states. Purpose of this colour on the website is to evoke the sense of unity and togetherness of the club.
+###  Background
+ Full navy background as navy conveys importance, confidence, power, and authority, as well as intelligence, stability and unity. Also it is one of the main colours in the American flag that encapulates all the stars that represent the American states. Purpose of this colour on the website is to evoke the sense of unity and togetherness of the club.
 
-- Club logo/main title/main text bodies
+### Club logo/main title/main text bodies
 Upon opening the site, the main logo and all text throughout the site is a brilliant white. I choose this colour to contrast against the navy and to stand out and catch the users attention. The colour white symbolises understanding, protection and promotes feelings of fresh beginnings and renewal. This is important to gain new members to the club aswell as bringing current members back.
 
-- Main menu/Navigation
+### Main menu/Navigation
 For the main navigation menu I choose red, the final colour in the American flag. Red symbolises engery and excitment. Red is energizing as it excites the emotions and motivates us to take action. The function of the navigation being red, is to motivate user to explore the website via the navigation menu.
 
 # __Features__
-From the landing page to the contact page there is six pages in total, layout in this order to promote intuitive learning for the user and to guide curiousity of the site user. The navigation menu and main logo are featured on all pages of the website.
+From the landing page to the contact page there is six pages in total, layed out in this order to promote intuitive learning for the user and to guide curiousity of the site user. The navigation menu and main logo are featured on all pages of the website.
 
 - Landing page
 This is just an opening page with main logo and navigation menu at the top. Followed by a bright visual of staged American muscle cars. Below the main image is a welcome message, inviting new members, returning members and general public to the club site.
@@ -55,13 +56,13 @@ Brief description of how the club got started to the charity partner choosen by 
 A full table of scheduled events for the club complete with date, time and place of event and if it the events are open to the public or members only.
 
 - Gallery
-Filled with bright eye catching cars from car shows to members club meetings and car displays. Thsi is to give an overview of the type of cars within the club.
+Filled with bright eye catching cars from car shows, to members club meetings and car displays. This is to give an overview of the type of cars within the club.
 
 - Sign-up form.
 A brighty styled page with a red ford mustang as the backgroud to tie in with the over all theme of the site. The membership sign up form is plain, simple and easy to use. Anyone who wants to become a member fills in this form to do so.
 
 - Contact
-The final page of the site is the contact details for the club. It displays the address for the clubhouse,gps co-ordinates contact phone number and email address. Complete with a google map of the general area of where he club is located.
+The final page of the site is the contact details for the club. It displays the address for the clubhouse, gps co-ordinates contact phone number and email address. Complete with a google map of the general area of where he club is located.
 
 This website is built for new members who are interested in Joining the club, current members to keep track of club calendar for the year and members of the public who may enjoy car shows and charity events. 
 
@@ -148,7 +149,7 @@ My project achieves this by keeping infomation precise, easy to navigate site, b
 ![Contact](assets/media/contact.png)
 
 # __Testing__
- I used a multiple resources for testing my code, HTML and CSS validators, Chrome Dev Tools Lighthouse tests as well as thorough user testing. Any errors of bug found will be logged in [Bugs & Fixes](#bugs-&-fixes) section.
+ I used a multiple resources for testing my code, HTML and CSS validators, Chrome Dev Tools Lighthouse tests as well as thorough user testing. Any errors of bug found will be logged in the bugs and errors section.
 
  ## Tests
  ### [HTML Validator](https://validator.w3.org/)
@@ -181,6 +182,45 @@ For running the lighthouse tests, I used an incognito window to avoid any errors
 - Unsure of what this diagnosis meant, I research the term on google to see if this would impact my site in any way. I did find a number of solutions to stop this from happening in the future.
 
 - This issue won't have any impact on my current project but for future projects I can implement this through javascript.
+
+## Bugs and fixes.
+
+### HTML
+When I originally ran my html code through W3C validator most of the bugs were minor and easy fixable.
+  - Stray closed end tags where I had previously modified code but didn't completly remove the line of code.
+  - The name on some of my ID and class attributes didn't pass through the validator. I changed these attributes and code the passed.
+  - Spelling errors in my code for the naviagtion menu on events page. Checked for spelling errors across the html and amended.
+  - Untidy code lead me to get lost when making changes to html. I used code beautifier to tidy up my code and ths made the hml more readable.
+
+### CSS
+- ID and class attributes not matching html. Amended this by checking all Id and Class attribute to make sure that the html was correctly labeled and css could target the correct attribute.
+-  I had all my values set to px. When I was making sure my design was resopnsive, the media queries were being ignored. I changed my values to rem to make the measurment of width and height along with text size more fluid. This help with the responsive design element of the website.
+
+# __Deployment__
+
+- The site was deployed to github pages once I had the site completed and I was happy with my code.
+The steps to deployment were as follows:
+  - In github repository, I went into settings and scrolled down until I came across git hub page section.
+  - On the github page section, I click the link to activate github pages.
+  - I then selected main branch from the source drop down selection and clicked save.
+  - The page automatically refreshed with a display to indicate the successful deployment.
+  - After a few minutes my site was sucessfully deployed and viewable on git hub pages with site link.
+
+    
+    The live link can be found here - https://charte-dot.github.io/american-auto-club/
+
+ # __Credits__
+   ## Content
+   - The text for the website was taken from [Google Fonts](https://fonts.google.com/)
+   - Social media logo's were taken from [Font Awesome](https://fontawesome.com/)
+   - The color scheme was chosen with the help of [My color space](https://mycolor.space/)
+   - Html and css based navigation bar/ burger menu was with the assistance of [Code box](https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/)
+
+   ## Media
+   - All images use through the site were taken from [Unsplashed](https://unsplash.com/)
+   - To help make images more resposive and smaller in file size I used [Tiny png](https://tinypng.com/)
+   - I used a direct link from google maps for my map on the contact page [Google maps](https://www.google.com/maps)
+
 
 
 
