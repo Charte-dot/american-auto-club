@@ -7,10 +7,6 @@
 ## [Click here to view Site.](https://charte-dot.github.io/american-auto-club/)
 
 
-## [Click here to view Repository.](https://github.com/Charte-dot/american-auto-club)
-
-
-
 # The aim of the site
 
 - The American Auto Club is a site that hopes to keep American car owners in Ireland and American car enthusiast a place to keep up with Information regarding the club meetings and yearly car show.
@@ -153,10 +149,13 @@ My project achieves this by keeping infomation precise, easy to navigate site, b
 
  ## Tests
  ### [HTML Validator](https://validator.w3.org/)
+ - [Index.html test]() 
+
 
 All HTML pages have been tested with the w3c validator and passed with no errors.
 
 ### [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+
 
 style.css has been passed through the CSS validator and passed with no errors.
 
@@ -173,15 +172,6 @@ For running the lighthouse tests, I used an incognito window to avoid any errors
 - When I brightened the shade of red used to a brighter hue and ran lighthouse again, accessability issues were resolved.
 
 ### ![Chrome Dev Tools - Lighthouse](assets/media/score.png)
-
-
-![Chrome Dev Tools - Lighthouse](assets/media/diagnostic.png)
-
-- When I reviewed the performance score of 99 the error that was been presented is a serve static assets with an efficient cache issue.
-
-- Unsure of what this diagnosis meant, I research the term on google to see if this would impact my site in any way. I did find a number of solutions to stop this from happening in the future.
-
-- This issue won't have any impact on my current project but for future projects I can implement this through javascript.
 
 ## Bugs and fixes.
 
