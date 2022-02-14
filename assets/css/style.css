@@ -152,6 +152,7 @@ h3 {
 
 footer {
 	height: 6.25rem;
+	margin-top: 15%;
 }
 
 .social-networks {
@@ -625,6 +626,14 @@ td {
 
 	#hero-image {
 		width: 100%;
+	}
+
+	#photos {
+		clear: both;
+		line-height: 0;
+		column-count: 1;
+		column-gap: 0;
+		column-width: 50%;
 	}
 
 }
