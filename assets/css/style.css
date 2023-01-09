@@ -10,7 +10,7 @@ body {
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
 	color: #3a3a3a;
-	background-color: #102138;
+	background-color: #dfdfdf;
 }
 
 
@@ -20,7 +20,7 @@ body {
 	text-transform: uppercase;
 	font-family: 'Special Elite', cursive;
 	letter-spacing: 0.25rem;
-	color: #fbfcfd;
+	color: #14395e;
 	width: 100%;
 	text-align: center;
 	font-size: 3.75rem;
@@ -42,7 +42,7 @@ h3 {
 /* Wrapper*/
 #menu-btn {
 	width: 100%;
-	background: #102138;
+	background: #dfdfdf;
 }
 
 
@@ -60,10 +60,18 @@ h3 {
 	text-align: center;
 	font-family: 'Special Elite', cursive;
 	font-size: 1.563rem;
+	border-bottom-style: ridge;
+	border-top-style: ridge;
+	border-color: #14395e;
+	border-width: 5%  #14395e;
 }
 
 #menu-items a:hover {
-	color: #fbfcfd;
+	color: #14395e;
+}
+
+#menu-items a:focus  {
+	color: #14395e;
 }
 
 
@@ -94,7 +102,7 @@ h3 {
 /*club ethos */
 
 #club-ethos {
-	height: 37.5rem;
+	height: 30.5rem;
 }
 
 #welcome {
@@ -104,7 +112,7 @@ h3 {
 	text-align: center;
 	font-size: 1.875rem;
 	font-family: 'Merriweather', serif;
-	color: #fbfcfd;
+	color: #14395e;
 	left: 30%;
 }
 
@@ -115,7 +123,7 @@ h3 {
 	text-align: justify;
 	margin: 0 auto;
 	font-size: 1.25rem;
-	color: #fbfcfd;
+	color: #14395e;
 	font-family: 'Merriweather', serif;
 }
 
@@ -135,9 +143,9 @@ h3 {
 	color: #fbfcfd;
 	background-color: rgba(49, 74, 119, 0.705);
 	width: 25%;
-	height: 18.75rem;
+	height: 18rem;
 	float: left;
-	padding: 1.875rem 0 0 0.625rem;
+	padding:  0 0 0.625rem;
 	text-align: center;
 	border: 0.125rem solid #102138;
 	box-sizing: border-box;
@@ -151,8 +159,8 @@ h3 {
 /* footer */
 
 footer {
-	height: 6.25rem;
-	margin-top: 15%;
+	height: 2.25rem;
+	margin-top: 2%;
 }
 
 .social-networks {
@@ -165,9 +173,8 @@ footer {
 
 .social-networks i {
 	font-size: 160%;
-	margin: 1%;
 	padding: 5%;
-	color: #fbfcfd;
+	color: #14395e;
 }
 
 
@@ -177,47 +184,73 @@ footer {
 	height: 37.5rem;
 }
 
+#about-image {
+	margin-top: 2%;
+	width: 100%;
+	height: 35.5rem;
+	background: url(../images/car-3.jpg) no-repeat center center;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
 #about-us-heading {
+	text-decoration: underline #14395e;
 	padding-top: 2%;
 	width: 33%;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 1.875rem;
 	font-family: 'Merriweather', serif;
-	color: #fbfcfd;
+	color: #14395e;
 }
 
 .about-us-text {
 	padding-top: 1%;
+	padding-bottom: 2%;
 	width: 80%;
 	line-height: 2.5rem;
 	text-align: justify;
 	margin: 0 auto;
 	font-size: 1.25rem;
-	color: #fbfcfd;
+	color: #14395e;
 	font-family: 'Merriweather', serif;
 	resize: none;
+	
 }
 
 .link {
 	color: red;
 	background-color: transparent;
 	text-decoration: none;
+	margin-bottom: 10%;
 }
 
 
 /* events */
 
 #events-heading {
-	color: #fbfcfd;
+	color: #14395e;
 	font-family: 'Merriweather', serif;
 	margin-top: 2%;
 	text-align: center;
 	font-size: 200%;
+	text-decoration: underline #14395e;
+	margin-bottom: 2%;
+}
+
+#event-image {
+	margin-top: 2%;
+	width: 100%;
+	height: 35.5rem;
+	background: url(../images/car-5.jpg) no-repeat center center;
+	background-size: cover;
+	background-position: center;
 }
 
 .important {
-	color: #fbfcfd;
+	color: #14395e;
 	font-family: 'Merriweather', serif;
 	margin-top: 2%;
 	margin-bottom: 2%;
@@ -233,7 +266,7 @@ footer {
 table,
 th,
 td {
-	border: 0.188rem solid #fbfcfd;
+	border: 0.188rem solid #14395e;
 	width: 100%;
 	height: 100%;
 	table-layout: fixed;
@@ -263,6 +296,16 @@ td {
 
 
 /* Gallery photos */
+
+.gallery {
+	color: #14395e;
+	font-family: 'Merriweather', serif;
+	margin-bottom: 2%;
+	text-align: center;
+	font-size: 200%;
+	text-decoration: underline #14395e;
+}
+
 
 #photos {
 	clear: both;
@@ -345,13 +388,23 @@ td {
 /* contact page */
 
 #contact-heading {
-	color: #fbfcfd;
+	color: #14395e;
+	text-decoration: underline #14395e;
 	padding-top: 2%;
 	width: 33%;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 1.875rem;
 	font-family: 'Merriweather', serif;
+}
+
+#contact-image {
+	margin-top: 2%;
+	width: 100%;
+	height: 35.5rem;
+	background: url(../images/car-10.jpg) no-repeat center center;
+	background-size: cover;
+	background-position: center;
 }
 
 .address {
